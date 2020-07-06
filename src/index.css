@@ -5,6 +5,10 @@ body {
     background-image: url('./themes/dark-forest-background-image-1920x1200.jpg');
 }
 
+ul {
+    font-size: 18px;
+}
+
 .card {
     display: grid;
     justify-content: center;
@@ -13,10 +17,15 @@ body {
 }
 
 .card-name {
-    /* padding-top: 20px; */
+    font-size: 32px;
+}
+
+.label {
+    font-size: 24px;
 }
 
 .keywords {
+    font-size: 24px;
     padding-top: 5px;
     padding-bottom: 5px;
 }

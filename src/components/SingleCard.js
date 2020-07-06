@@ -100,7 +100,7 @@ const SingleCard = () => {
                                 Light:
                             </div>
                             <ul>
-                                {card.meanings.light.map(item => <li>{item}</li>)}
+                                {card.meanings.light.map(item => <li key={item}>{item}</li>)}
                             </ul>
                         </div>
                         <div className="meaning-dark">
@@ -108,7 +108,7 @@ const SingleCard = () => {
                                 Shadow:
                             </div>
                             <ul>
-                                {card.meanings.shadow.map(item => <li>{item}</li>)}
+                                {card.meanings.shadow.map(item => <li key={item}>{item}</li>)}
                             </ul>
                         </div>
                     </div>
