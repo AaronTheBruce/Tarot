@@ -2,9 +2,13 @@ import React from 'react'
 import Tarot from '../../data/datasets_tarot-images.json';
 
 const SingleCard = () => {
-    const [tarotState, setTarotState] = useState(null);
-
+    const [tarotCard, setTarotCard] = useState(null);
+    const [errors, setErrors] = useState([]);
     
+    // pick a random card
+    // pick a random major arcana card (bonus)
+
+
     return (
         <div>
 
