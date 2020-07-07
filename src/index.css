@@ -3,83 +3,39 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: whitesmoke;
     background-image: url('./themes/dark-forest-background-image-1920x1200.jpg');
-    background-repeat: no-repeat;
-    
 }
 
-@media only screen and (min-width: 800px){
-
-    ul {
-        font-size: 18px;
-    }
-
-    .card {
-        display: grid;
-        justify-content: center;
-        grid-template-areas:
-        'card-image card-details';
-    }
-
-    .card-name {
-        font-size: 32px;
-    }
-
-    .label {
-        font-size: 24px;
-    }
-
-    .keywords {
-        font-size: 24px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-
-    .card-details {
-        align-self: center;
-        padding: 10px;
-        background-color: rgba(100, 100, 100, .3);
-    }
-
-    .options {
-        justify-content: center;
-    }
+ul {
+    font-size: 18px;
 }
 
-@media only screen and (max-width: 799px){
-    ul {
-        font-size: 18px;
-    }
+.card {
+    display: grid;
+    justify-content: center;
+    grid-template-areas:
+    'card-image card-details';
+}
 
-    .card {
-        display: grid;
-        justify-content: center;
-        grid-template-areas:
-        'card-image'
-        'card-details';
-        max-width: 350px;
-    }
+.card-name {
+    font-size: 32px;
+}
 
-    .card-name {
-        font-size: 22px;
-    }
+.label {
+    font-size: 24px;
+}
 
-    .label {
-        font-size: 18px;
-    }
+.keywords {
+    font-size: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
-    .keywords {
-        font-size: 16px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
+.card-details {
+    align-self: center;
+    padding: 10px;
+    background-color: rgba(100, 100, 100, .3);
+}
 
-    .card-details {
-        align-self: center;
-        padding: 10px;
-        background-color: rgba(100, 100, 100, .3);
-    }
-
-    .options {
-        justify-content: center;
-    }
+.options {
+    justify-content: center;
 }
