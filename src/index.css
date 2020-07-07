@@ -59,7 +59,7 @@ body {
     }
 
     .keywords {
-        font-size: 24px;
+        font-size: 20px;
         padding-top: 5px;
         padding-bottom: 5px;
         width: 350px;
@@ -74,21 +74,22 @@ body {
         height: 300px;
     }
 
-    .three_card_fortune_telling ul li {
+    .three_card_fortune_telling ul {
         font-size: 12px;
         padding-left: 0;
     }
 
     .meaning ul {
+        font-size: 16px;
         padding-left: 20px;
     }
 
     ul {
-        padding-left: 0;
+        margin: 10px 0px;
     }
 
     .label {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .card-details {

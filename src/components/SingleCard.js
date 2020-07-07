@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import {getDeck, getCard, spliceShuffle, stackSuffle, riffleShuffle, renderKeywords} from '../utils/scripts.js';
+import { getDeck, getCard, spliceShuffle, stackSuffle, riffleShuffle, renderKeywords } from '../utils/scripts.js';
 
 const SingleCard = () => {
     const [tarotDeck, setTarotDeck] = useState(null);
@@ -55,13 +55,21 @@ const SingleCard = () => {
                                 {card.meanings.shadow.map(item => <li key={item}>{item}</li>)}
                             </ul>
                         </div>
+                        <div className="meaning">
+                            <div className="label">
+                                Questions to Ask Yourself
+                        </div>
+                            <ul>
+                                {card.QuestionsToAsk.map(item => <li key={item}>{item}</li>)}
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 :
                 <div className="prompt">Shuffle and Draw a Card</div>}
             <div className="options">
-                <button type="primary" onClick={() => {setCard(null); shuffle()}} >Shuffle</button>
-                <button type="primary" onClick={() => {getThisDeck(); setCard(null)}} >Reset</button>
+                <button type="primary" onClick={() => { setCard(null); shuffle() }} >Shuffle</button>
+                <button type="primary" onClick={() => { getThisDeck(); setCard(null) }} >Reset</button>
                 <button type="primary" onClick={() => getThisCard()} >Draw Card</button>
                 <div className="tips">
                     <h3>Helpful Tips</h3>
