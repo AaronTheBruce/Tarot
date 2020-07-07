@@ -11,8 +11,22 @@ body {
         font-size: 18px;
     }
 
+    .active {
+        font-weight: 700;
+    }
+
+    nav a {
+        color: whitesmoke;
+        padding: 0px 10px;
+    }
+
+    .prompt {
+        margin: 20px 0px;
+    }
+
     .card {
         display: grid;
+        padding: 10px 0px;
         justify-content: center;
         grid-template-areas:
         'card-image card-details';
@@ -48,9 +62,23 @@ body {
         font-size: 18px;
     }
 
+    .active {
+        font-weight: 700;
+    }
+
+    nav a {
+        color: whitesmoke;
+        display: flex;
+    }
+
+    .prompt {
+        margin: 20px 0px;
+    }
+
     .card {
         display: grid;
         justify-content: center;
+        padding: 10px 0px;
         grid-template-areas:
         'card-image'
         'card-details';

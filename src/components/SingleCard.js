@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Tarot from '../data/datasets_tarot-images.json';
-// import CardArtUrl from '../data/images/cards';
+import { Button } from 'antd';
 
 const SingleCard = () => {
     const [tarotDeck, setTarotDeck] = useState(null);
@@ -60,6 +60,10 @@ const SingleCard = () => {
         // console.log(deck);
     }
 
+    const shuffle = () => {
+        riffleShuffle(tarotDeck);
+    }
+
     useEffect(() => {
         if (!tarotDeck) {
             getDeck();
@@ -88,7 +92,6 @@ const SingleCard = () => {
 
     return (
         <div>
-            <h1>Single Card Component</h1>
             {card ?
                 <div className="card">
                     <div><img className="card-image" src={`images/cards/${card.img}`} alt={card.name} /></div>
@@ -114,13 +117,13 @@ const SingleCard = () => {
                     </div>
                 </div>
                 :
-                <div>Card is null</div>}
+                <div className="prompt">Shuffle and Draw a Card</div>}
             <div className="options">
-                <button color="secondary" type="submit" onClick={() => spliceShuffle(tarotDeck)} >Fisher-Yates Shuffle</button>
-                <button color="secondary" type="submit" onClick={() => stackSuffle(tarotDeck)} >Stack Shuffle</button>
-                <button color="secondary" type="submit" onClick={() => riffleShuffle(tarotDeck)} >Riffle Shuffle</button>
-                <button color="secondary" type="submit" onClick={() => getDeck()} >Reset</button>
-                <button color="primary" type="submit" onClick={() => getCard(tarotDeck)} >Draw Card</button>
+                <button type="primary" onClick={() => spliceShuffle(tarotDeck)} >Fisher-Yates Shuffle</button>
+                <button type="primary" onClick={() => stackSuffle(tarotDeck)} >Stack Shuffle</button>
+                <button type="primary" onClick={() => riffleShuffle(tarotDeck)} >Riffle Shuffle</button>
+                <button type="primary" onClick={() => getDeck()} >Reset</button>
+                <button type="primary" onClick={() => getCard(tarotDeck)} >Draw Card</button>
             </div>
         </div>
     )
