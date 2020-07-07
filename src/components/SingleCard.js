@@ -39,7 +39,7 @@ const SingleCard = () => {
                     <div className="card-details">
                         <div className="card-name">{card.number}: {card.name}</div>
                         <div className="keywords">Keywords: {renderKeywords(card)}</div>
-                        <div className="meaning-light">
+                        <div className="meaning">
                             <div className="label">
                                 Light:
                             </div>
@@ -47,7 +47,7 @@ const SingleCard = () => {
                                 {card.meanings.light.map(item => <li key={item}>{item}</li>)}
                             </ul>
                         </div>
-                        <div className="meaning-dark">
+                        <div className="meaning">
                             <div className="label">
                                 Shadow:
                             </div>
@@ -61,8 +61,6 @@ const SingleCard = () => {
                 <div className="prompt">Shuffle and Draw a Card</div>}
             <div className="options">
                 <button type="primary" onClick={() => {setCard(null); shuffle()}} >Shuffle</button>
-                {/* <button type="primary" onClick={() => stackSuffle(tarotDeck)} >Stack Shuffle</button>
-                <button type="primary" onClick={() => riffleShuffle(tarotDeck)} >Riffle Shuffle</button> */}
                 <button type="primary" onClick={() => {getThisDeck(); setCard(null)}} >Reset</button>
                 <button type="primary" onClick={() => getThisCard()} >Draw Card</button>
                 <div className="tips">

@@ -16,7 +16,7 @@ const ThreeCard = () => {
     }
 
     const getThisSpread = (num) => {
-        shuffle();
+        riffleShuffle(tarotDeck);
         setSpread(getSpread(tarotDeck, num));
     }
 
@@ -33,7 +33,7 @@ const ThreeCard = () => {
             {spread ?
                 <div className="three_spread">
                     {spread.map((card, i) =>
-                        <div className="card" key={card.name}>
+                        <div className="three_spread_card" key={card.name}>
                             {i === 0 ? <div>Action to Avoid</div> :
                                 i === 1 ? <div>The Situation</div> :
                                     <div>Action to Take</div>}
@@ -52,7 +52,17 @@ const ThreeCard = () => {
                 </div>
                 :
                 <div className="prompt">Shuffle and Draw a Spread</div>}
+            <button type="submit" onClick={() => shuffle()} >Shuffle</button>
+            <button type="submit" onClick={() => {setSpread(null); setTarotDeck(null)}} >Reset</button>
             <button type="submit" onClick={() => getThisSpread(3)} >Get Spread</button>
+            <div>
+                Tips:
+                <ul>
+                    <li>Shuffle will shuffle the deck 3 times</li>
+                    <li>Reset will set the deck in order</li>
+                    <li>Get Spread shuffles once and lays out a 3 card spread</li>
+                </ul>
+            </div>
         </div>
     )
 }

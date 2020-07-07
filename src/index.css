@@ -3,6 +3,8 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: whitesmoke;
     background-image: url('./themes/dark-forest-background-image-1920x1200.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 @media only screen and (min-width: 800px){
@@ -31,7 +33,7 @@ body {
         margin: 20px 0px;
     }
 
-    .card {
+    .three_spread_card {
         display: grid;
         padding: 10px 15px;
         justify-content: center;
@@ -40,6 +42,13 @@ body {
         'card-image'
         'card-details';
     }
+    .card {
+        display: grid;
+        padding: 10px 15px;
+        justify-content: center;
+        grid-template-areas:
+        'card-image card-details';
+    }
 
     .card-name {
         font-size: 32px;
@@ -47,6 +56,13 @@ body {
 
     .three_card_name {
 
+    }
+
+    .keywords {
+        font-size: 24px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 350px;
     }
 
     .three_card_keywords {
@@ -58,11 +74,13 @@ body {
         height: 300px;
     }
 
-
-
     .three_card_fortune_telling ul li {
         font-size: 12px;
-        /* width: 170px; */
+        padding-left: 0;
+    }
+
+    .meaning ul {
+        padding-left: 20px;
     }
 
     ul {
@@ -71,13 +89,6 @@ body {
 
     .label {
         font-size: 24px;
-    }
-
-    .keywords {
-        font-size: 24px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        width: 250px;
     }
 
     .card-details {
@@ -97,8 +108,16 @@ body {
 }
 
 @media only screen and (max-width: 799px){
+
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: whitesmoke;
+        background-image: none;
+        background-color: black;
+    }
+
     ul {
-        font-size: 18px;
+        font-size: 12px;
     }
 
     .active {
@@ -124,22 +143,40 @@ body {
     }
 
     .card-name {
-        font-size: 32px;
+        font-size: 14px;
     }
 
     .label {
-        font-size: 24px;
+        font-size: 14px;
     }
 
     .keywords {
-        font-size: 24px;
+        font-size: 14px;
         padding-top: 5px;
         padding-bottom: 5px;
     }
 
+    .three_spread {
+        padding-top: 20px;
+    }
+
+    .three_card_keywords {
+        /* width: 170px; */
+    }
+
+    .three_card_image {
+        width: 170px;
+        height: 300px;
+    }
+
+    .three_card_fortune_telling ul li {
+        font-size: 12px;
+        padding-left: 0;
+    }
+
     .card-image {
-        width: 250px;
-        height: 500px;
+        width: 170px;
+        height: 250px;
     }
 
     .card-details {
@@ -147,7 +184,7 @@ body {
         padding-left: 10px;
         padding-right: 0px;
         background-color: rgba(100, 100, 100, .3);
-        width: 240px;
+        width: 170px;
     }
 
     .options {
