@@ -15,14 +15,6 @@ const SingleCard = () => {
         setTarotDeck(deck);
     }
 
-    useEffect(() => {
-        if (!tarotDeck) {
-            getDeck();
-        } else {
-            return;
-        }
-    })
-
     // Fisher-Yates Shuffle
     const spliceShuffle = (deck) => {
         let count = deck.length;
@@ -67,11 +59,20 @@ const SingleCard = () => {
         setTarotDeck(deck);
         // console.log(deck);
     }
+
+    useEffect(() => {
+        if (!tarotDeck) {
+            getDeck();
+        } else {
+            return;
+        }
+    });
+
     // pick a random major arcana card (bonus)
     const getCard = () => {
-        // gets the first card on top of the deck
-        setCard(tarotDeck[0]);
-        // console.log(tarotDeck[0]);
+        // gets the first card on top of the deck and removes it from the deck
+        let drawnCard = tarotDeck.splice(0, 1);
+        setCard(drawnCard[0]);
     }
 
     const renderKeywords = () => {
@@ -90,7 +91,6 @@ const SingleCard = () => {
             <h1>Single Card Component</h1>
             {card ?
                 <div className="card">
-                    {/* <div className="card-image" style={{backgroundImage: `url('../data/images/cards/${card.img}')`}}></div> */}
                     <div><img className="card-image" src={`images/cards/${card.img}`} alt={card.name} /></div>
                     <div className="card-details">
                         <div className="card-name">{card.number}: {card.name}</div>
@@ -116,10 +116,11 @@ const SingleCard = () => {
                 :
                 <div>Card is null</div>}
             <div className="options">
-                <button type="submit" onClick={() => spliceShuffle(tarotDeck)} >Fisher-Yates Shuffle</button>
-                <button type="submit" onClick={() => stackSuffle(tarotDeck)} >Stack Shuffle</button>
-                <button type="submit" onClick={() => riffleShuffle(tarotDeck)} >Riffle Shuffle</button>
-                <button type="submit" onClick={() => getCard(tarotDeck)} >Draw Card</button>
+                <button color="secondary" type="submit" onClick={() => spliceShuffle(tarotDeck)} >Fisher-Yates Shuffle</button>
+                <button color="secondary" type="submit" onClick={() => stackSuffle(tarotDeck)} >Stack Shuffle</button>
+                <button color="secondary" type="submit" onClick={() => riffleShuffle(tarotDeck)} >Riffle Shuffle</button>
+                <button color="secondary" type="submit" onClick={() => getDeck()} >Reset</button>
+                <button color="primary" type="submit" onClick={() => getCard(tarotDeck)} >Draw Card</button>
             </div>
         </div>
     )
