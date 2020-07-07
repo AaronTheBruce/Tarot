@@ -22,9 +22,9 @@ body {
 
     .three_spread {
         display: grid;
+        justify-content: center;
         grid-template-areas:
-        'card-image card-image card-image'
-        'card-detail' 'card-detail' 'card-detail';
+        'card card card';
     }
 
     .prompt {
@@ -33,19 +33,40 @@ body {
 
     .card {
         display: grid;
-        padding: 10px 0px;
+        padding: 10px 15px;
         justify-content: center;
         grid-template-areas:
-        'card-image card-details';
+        'position-meaning'
+        'card-image'
+        'card-details';
     }
 
     .card-name {
         font-size: 32px;
     }
 
+    .three_card_name {
+
+    }
+
+    .three_card_keywords {
+        /* width: 170px; */
+    }
+
     .three_card_image {
         width: 170px;
         height: 300px;
+    }
+
+
+
+    .three_card_fortune_telling ul li {
+        font-size: 12px;
+        /* width: 170px; */
+    }
+
+    ul {
+        padding-left: 0;
     }
 
     .label {
@@ -56,12 +77,18 @@ body {
         font-size: 24px;
         padding-top: 5px;
         padding-bottom: 5px;
+        width: 250px;
     }
 
     .card-details {
         align-self: center;
         padding: 10px;
         background-color: rgba(100, 100, 100, .3);
+    }
+
+    .three_card_details {
+        width: 170px;
+        height: 250px;
     }
 
     .options {
