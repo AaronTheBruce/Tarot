@@ -1,12 +1,12 @@
 import React from 'react';
 import SingleCard from './components/SingleCard';
-import { Home } from './Home';
+import { Nav } from './Navbar';
 
 function App() {
   return (
     <>
       <h1>Tarot Spread App</h1>
-      <Home />
+      <Nav />
     </>
   );
 }

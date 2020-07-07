@@ -1,8 +1,9 @@
 import React from 'react';
 import {BrowserRouter, Switch, Route, NavLink} from 'react-router-dom';
 import SingleCard from './components/SingleCard';
+import ThreeCard from './components/ThreeCard';
 
-export const Home = () => {
+export const Nav = () => {
     return (
         <BrowserRouter>
         <nav>
@@ -12,7 +13,7 @@ export const Home = () => {
         </nav>
         <Switch>
             <Route path="/SingleCard" render={() => <SingleCard />} />
-            <Route path="/ThreeCard" render={()=> <></> } />
+            <Route path="/ThreeCard" render={() => <ThreeCard /> } />
             <Route path="/TenCard" render={() => <></> } />
         </Switch>
         </BrowserRouter>

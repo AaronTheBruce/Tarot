@@ -20,6 +20,13 @@ body {
         padding: 0px 10px;
     }
 
+    .three_spread {
+        display: grid;
+        grid-template-areas:
+        'card-image card-image card-image'
+        'card-detail' 'card-detail' 'card-detail';
+    }
+
     .prompt {
         margin: 20px 0px;
     }
@@ -34,6 +41,11 @@ body {
 
     .card-name {
         font-size: 32px;
+    }
+
+    .three_card_image {
+        width: 170px;
+        height: 300px;
     }
 
     .label {
