@@ -1,1 +1,41 @@
 /* TODO Add site wide styles */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    background-image: url('./themes/dark-forest-background-image-1920x1200.jpg');
+}
+
+ul {
+    font-size: 18px;
+}
+
+.card {
+    display: grid;
+    justify-content: center;
+    grid-template-areas:
+    'card-image card-details';
+}
+
+.card-name {
+    font-size: 32px;
+}
+
+.label {
+    font-size: 24px;
+}
+
+.keywords {
+    font-size: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.card-details {
+    align-self: center;
+    padding: 10px;
+    background-color: rgba(100, 100, 100, .3);
+}
+
+.options {
+    justify-content: center;
+}
