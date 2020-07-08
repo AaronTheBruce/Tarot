@@ -1,10 +1,13 @@
 /* TODO Add site wide styles */
+html {
+    background-image: url('./themes/star-gazer-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: whitesmoke;
-    background-image: url('./themes/dark-forest-background-image-1920x1200.jpg');
-    background-repeat: no-repeat;
-    background-position: top center;
 }
 
 @media only screen and (min-width: 800px){
@@ -33,8 +36,68 @@ body {
         'card card card';
     }
 
+    .ten_spread {
+        display: grid;
+        justify-content: center;
+        grid-template-areas:
+        'cross spear';
+    }
+
+    .cross div {
+        justify-self: center;
+        align-items: center;
+    }
+
+    .cross {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-areas:
+        '. conscious .'
+        'past situation future'
+        '. unconscious .';
+    }
+
+    .spear {
+        display: inline;
+    }
+
     .prompt {
         margin: 20px 0px;
+    }
+
+    .none {
+        width: 85px;
+        height: 150px;
+    }
+    .present {
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .problem {
+        grid-row: 1;
+        grid-column: 1;
+        -webkit-transform:rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        transform: rotate(270deg);
+    }
+    .past {}
+    .future {}
+    .conscious {}
+    .unconscious {}
+    .your_influence {}
+    .ext_influence {}
+    .hopes_and_fears {}
+    .outcome {}
+    .situation {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-areas:
+        'item';
+        width: 150px;
     }
 
     .three_spread_card {
@@ -60,6 +123,12 @@ body {
 
     .three_card_name {
 
+    }
+
+    .ten_card_image {
+        width: 85px;
+        height: 150px;
+        padding: 10px;
     }
 
     .keywords {
@@ -114,11 +183,14 @@ body {
 
 @media only screen and (max-width: 799px){
 
+    html {
+        background-image: none;
+        background-color: black;
+    }
+
     body {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: whitesmoke;
-        background-image: none;
-        background-color: black;
     }
 
     ul {

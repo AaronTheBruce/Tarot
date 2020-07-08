@@ -62,7 +62,7 @@ const ThreeCard = () => {
                     )}
                 </div>
                 :
-                <div className="prompt">Shuffle and Draw a Spread</div>}
+                <div className="prompt">Hold a Question in your mind while you Shuffle and Draw a Spread when you feel ready</div>}
 
         </div>
     )

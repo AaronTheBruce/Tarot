@@ -24,7 +24,6 @@ const SingleCard = () => {
         setTarotDeck(stackSuffle(tarotDeck));
     }
 
-
     // pick a random major arcana card (bonus)
     const getThisCard = () => {
         // gets the first card on top of the deck and removes it from the deck
@@ -40,6 +39,9 @@ const SingleCard = () => {
                 <div className="tips">
                     <h3>Helpful Tips</h3>
                     <ul>
+                        <li>
+                            Cards are default in order for exploration, so don't forget to shuffle!
+                        </li>
                         <li>
                             Shuffle preforms 3 different shuffles with each click to the Suffle button
                         </li>
@@ -85,7 +87,7 @@ const SingleCard = () => {
                     </div>
                 </div>
                 :
-                <div className="prompt">Shuffle and Draw a Card</div>}
+                <div className="prompt">Cards are in order by default; Shuffle and Draw a Card</div>}
         </div>
     )
 }
