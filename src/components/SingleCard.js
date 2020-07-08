@@ -33,6 +33,25 @@ const SingleCard = () => {
 
     return (
         <div>
+            <div className="options">
+                <button type="primary" onClick={() => { setCard(null); shuffle() }} >Shuffle</button>
+                <button type="primary" onClick={() => { getThisDeck(); setCard(null) }} >Reset</button>
+                <button type="primary" onClick={() => getThisCard()} >Draw Card</button>
+                <div className="tips">
+                    <h3>Helpful Tips</h3>
+                    <ul>
+                        <li>
+                            Shuffle preforms 3 different shuffles with each click to the Suffle button
+                        </li>
+                        <li>
+                            Reset puts all the cards back in the deck in order
+                        </li>
+                        <li>
+                            Draw Card draws the first card on the top of the deck
+                        </li>
+                    </ul>
+                </div>
+            </div>
             {card ?
                 <div className="card">
                     <div><img className="card-image" src={`images/cards/${card.img}`} alt={card.name} /></div>
@@ -67,25 +86,6 @@ const SingleCard = () => {
                 </div>
                 :
                 <div className="prompt">Shuffle and Draw a Card</div>}
-            <div className="options">
-                <button type="primary" onClick={() => { setCard(null); shuffle() }} >Shuffle</button>
-                <button type="primary" onClick={() => { getThisDeck(); setCard(null) }} >Reset</button>
-                <button type="primary" onClick={() => getThisCard()} >Draw Card</button>
-                <div className="tips">
-                    <h3>Helpful Tips</h3>
-                    <ul>
-                        <li>
-                            Shuffle preforms 3 different shuffles with each click to the Suffle button
-                        </li>
-                        <li>
-                            Reset puts all the cards back in the deck in order
-                        </li>
-                        <li>
-                            Draw Card draws the first card on the top of the deck
-                        </li>
-                    </ul>
-                </div>
-            </div>
         </div>
     )
 }

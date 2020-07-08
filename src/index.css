@@ -17,6 +17,10 @@ body {
         font-weight: 700;
     }
 
+    .options {
+        padding: 10px;
+    }
+
     nav a {
         color: whitesmoke;
         padding: 0px 10px;
@@ -123,6 +127,10 @@ body {
 
     .active {
         font-weight: 700;
+    }
+
+    .options {
+        padding: 10px;
     }
 
     nav a {
