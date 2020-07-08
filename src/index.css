@@ -41,7 +41,7 @@ body {
         justify-content: flex-start;
         justify-items: center;
         grid-template-areas:
-        'cross spear';
+        'cross spear card';
     }
 
     .cross div {
@@ -135,10 +135,16 @@ body {
         font-size: 12px;
     }
 
+    .focused-card-image {
+        height: 360px;
+        width: 210px;
+    }
+
     .card {
         display: grid;
         padding: 10px 15px;
         justify-content: center;
+        align-items: center;
         grid-template-areas:
         'card-image card-details';
     }
@@ -279,6 +285,11 @@ body {
     .three_card_fortune_telling ul li {
         font-size: 12px;
         padding-left: 0;
+    }
+
+    .focused-card-image {
+        height: 360px;
+        width: 210px;
     }
 
     .card-image {
