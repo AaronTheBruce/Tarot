@@ -53,8 +53,12 @@ const TenCard = () => {
         }
     }
 
-    const toggleDisplay = (e) => {
+    const shiftCard = (e) => {
         e.target.classList.toggle('problem')
+    }
+
+    const hideTips = (e) => {
+        e.target.classList.toggle('hidden');
     }
 
     return (
@@ -66,12 +70,15 @@ const TenCard = () => {
             <button type="submit" onClick={() => { console.log(tarotDeck); }} >Log Deck</button> */}
             <div>
                 Tips:
-                <ul>
-                    <li>Shuffle will shuffle the deck 3 times</li>
-                    <li>Reset will set the deck in order</li>
-                    <li>Get Spread shuffles once and lays out a 3 card spread</li>
-                    <li>Click the horizontal card in the middle to move it for a better view of 'Position By Problem'</li>
-                </ul>
+                <div onClick={(e) => hideTips(e)}> Hide
+                    <ul>
+                        <li>Shuffle will shuffle the deck 3 times</li>
+                        <li>Reset will set the deck in order</li>
+                        <li>Get Spread shuffles once and lays out a Celtic Cross spread</li>
+                        <li>Click the horizontal card in the middle to move it for a better view of 'Position By Problem'</li>
+                        <li>Click on an individual card for more detail</li>
+                    </ul>
+                </div>
             </div>
             {spread ?
                 <div className="ten_spread">
@@ -110,7 +117,7 @@ const TenCard = () => {
                             <img className="problem ten_card_image"
                                 alt={spread[1].name}
                                 src={`images/cards/${spread[1].img}`}
-                                onClick={(e) => { cardHandler(1); toggleDisplay(e); }}>
+                                onClick={(e) => { cardHandler(1); shiftCard(e); }}>
                             </img>
                             {/* <div>{spread[1].number} {spread[1].name}</div> */}
                             {/* </div> */}
@@ -177,7 +184,7 @@ const TenCard = () => {
 
                     {card ?
                         <div className="card">
-                            
+
                             <img className="focused-card-image"
                                 src={`images/cards/${card.img}`}
                                 alt={card.name} />
@@ -216,7 +223,7 @@ const TenCard = () => {
                 </div>
 
                 :
-                <div>Shuffle and Draw</div>}
+                <div>Think on an issue you would like insight into while shuffling, when ready, Click Get Spread</div>}
         </div>
 
     )
