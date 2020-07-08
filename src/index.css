@@ -1,6 +1,6 @@
 /* TODO Add site wide styles */
 html {
-    background-image: url('./themes/star-gazer-wallpaper.jpg');
+    background-image: url('./themes/dark-forest-background-image-1920x1200.jpg');
     background-repeat: no-repeat;
     background-position: top center;
 }
@@ -38,7 +38,8 @@ body {
 
     .ten_spread {
         display: grid;
-        justify-content: center;
+        justify-content: flex-start;
+        justify-items: center;
         grid-template-areas:
         'cross spear';
     }
@@ -46,6 +47,10 @@ body {
     .cross div {
         justify-self: center;
         align-items: center;
+    }
+
+    .cross img {
+        margin: auto;
     }
 
     .cross {
@@ -60,6 +65,7 @@ body {
 
     .spear {
         display: inline;
+        margin: 0 15px;
     }
 
     .prompt {
@@ -71,11 +77,11 @@ body {
         height: 150px;
     }
     .present {
-        grid-row: 1;
+        grid-row: 2;
         grid-column: 1;
     }
     .problem {
-        grid-row: 1;
+        grid-row: 2;
         grid-column: 1;
         -webkit-transform:rotate(270deg);
         -moz-transform: rotate(270deg);
@@ -83,21 +89,36 @@ body {
         -o-transform: rotate(270deg);
         transform: rotate(270deg);
     }
-    .past {}
-    .future {}
-    .conscious {}
-    .unconscious {}
-    .your_influence {}
-    .ext_influence {}
-    .hopes_and_fears {}
-    .outcome {}
+    .past,
+    .future,
+    .conscious,
+    .unconscious,
+    .your_influence,
+    .ext_influence,
+    .hopes_and_fears,
+    .outcome,
+
     .situation {
         display: grid;
         justify-content: center;
         align-items: center;
         grid-template-areas:
+        'position_title'
         'item';
         width: 150px;
+        padding: 0 15px;
+    }
+
+    .situation {
+        grid-template-areas:
+        'position_title'
+        'item1'
+        'item2';
+    }
+
+    .position_title {
+        justify-self: center;
+        grid-row: 1;
     }
 
     .three_spread_card {
@@ -109,6 +130,11 @@ body {
         'card-image'
         'card-details';
     }
+
+    .position_title {
+        font-size: 12px;
+    }
+
     .card {
         display: grid;
         padding: 10px 15px;

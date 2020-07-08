@@ -43,26 +43,94 @@ const TenCard = () => {
             </div>
             {spread ?
                 <div className="ten_spread">
-                    {/* <div className="filler" /> */}
                     <div className="cross">
                         <div className="none" />
-                        <div className="conscious"><img className="ten_card_image" src={`images/cards/${spread[4].img}`}></img></div>
-                        <div className="none" />
-                        <div className="past"><img className="ten_card_image" src={`images/cards/${spread[2].img}`}></img></div>
-                        <div className="situation">
-                            <div className="present"><img className="ten_card_image" src={`images/cards/${spread[0].img}`}></img></div>
-                            <div className="problem"><img className="ten_card_image" src={`images/cards/${spread[1].img}`}></img></div>
+                        <div className="conscious">
+                            <div className="position_title">Conscious Thoughts</div>
+                            <img className="ten_card_image"
+                                alt={spread[3].name}
+                                src={`images/cards/${spread[3].img}`}>
+                            </img>
+                            {/* <div>{spread[3].number} {spread[3].name}</div> */}
                         </div>
-                        <div className="future"><img className="ten_card_image" src={`images/cards/${spread[3].img}`}></img></div>
                         <div className="none" />
-                        <div className="unconscious"><img className="ten_card_image" src={`images/cards/${spread[5].img}`}></img></div>
+                        <div className="past">
+                            <div className="position_title">Recent Past</div>
+                            <img className="ten_card_image"
+                                alt={spread[4].name}
+                                src={`images/cards/${spread[4].img}`}>
+                            </img>
+                            {/* <div>{spread[4].number} {spread[4].name}</div> */}
+                            </div>
+                        <div className="situation">
+                            <div className="position_title">Present By Problem</div>
+                            <div className="present">
+                                <img className="ten_card_image"
+                                    alt={spread[0].name}
+                                    src={`images/cards/${spread[0].img}`}>
+                                </img>
+                                {/* <div>{spread[0].number} {spread[0].name}</div> */}
+                            </div>
+                            <div className="problem">
+                                <img className="ten_card_image"
+                                    alt={spread[1].name}
+                                    src={`images/cards/${spread[1].img}`}>
+                                </img>
+                                {/* <div>{spread[1].number} {spread[1].name}</div> */}
+                            </div>
+                        </div>
+                        <div className="future">
+                            <div className="position_title">Near Future</div>
+                            <img className="ten_card_image"
+                                alt={spread[5].name}
+                                src={`images/cards/${spread[5].img}`}>
+                            </img>
+                            {/* <div>{spread[5].number} {spread[5].name}</div> */}
+                        </div>
+                        <div className="none" />
+                        <div className="unconscious">
+                            <div className="position_title">Unconscious Thoughts</div>
+                            <img className="ten_card_image"
+                                alt={spread[3].name}
+                                src={`images/cards/${spread[3].img}`}>
+                            </img>
+                            {/* <div>{spread[3].number} {spread[3].name}</div> */}
+                        </div>
                         <div className="none" />
                     </div>
                     <div className="spear">
-                        <div className="your_influence"><img className="ten_card_image" src={`images/cards/${spread[6].img}`}></img></div>
-                        <div className="ext_influence"><img className="ten_card_image" src={`images/cards/${spread[7].img}`}></img></div>
-                        <div className="hopes_and_fears"><img className="ten_card_image" src={`images/cards/${spread[8].img}`}></img></div>
-                        <div className="outcome"><img className="ten_card_image" src={`images/cards/${spread[9].img}`}></img></div>
+                        <div className="outcome">
+                            <div className="position_title">Final Outcome</div>
+                            <img className="ten_card_image"
+                                alt={spread[9].name}
+                                src={`images/cards/${spread[9].img}`}>
+                            </img>
+                            {/* <div>{spread[9].number} {spread[9].name}</div> */}
+                        </div>
+                        <div className="hopes_and_fears">
+                            <div className="position_title">Hopes and Fears</div>
+                            <img className="ten_card_image"
+                                alt={spread[8].name}
+                                src={`images/cards/${spread[8].img}`}>
+                            </img>
+                            {/* <div>{spread[8].number} {spread[8].name}</div> */}
+                        </div>
+                        <div className="ext_influence">
+                            <div className="position_title">Your Environment</div>
+                            <img className="ten_card_image"
+                                alt={spread[7].name}
+                                src={`images/cards/${spread[7].img}`}>
+                            </img>
+                            {/* <div>{spread[7].number} {spread[7].name}</div> */}
+                        </div>
+                        <div className="your_influence">
+                            <div className="position_title">Your Self</div>
+                            <img className="ten_card_image"
+                                alt={spread[6].name}
+                                src={`images/cards/${spread[6].img}`}>
+                            </img>
+                            {/* <div>{spread[6].number} {spread[6].name}</div> */}
+                        </div>
                     </div>
                 </div>
                 :
