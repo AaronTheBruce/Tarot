@@ -10,13 +10,15 @@ const TenCard = () => {
     }
 
     const shuffle = () => {
-        setTarotDeck(riffleShuffle(tarotDeck));
-        setTarotDeck(spliceShuffle(tarotDeck));
-        setTarotDeck(stackSuffle(tarotDeck));
+        let deck = tarotDeck;
+        setTarotDeck(null);
+        deck = riffleShuffle(deck);
+        deck = spliceShuffle(deck);
+        deck = stackSuffle(deck);
+        setTarotDeck(deck);
     }
 
     const getThisSpread = (num) => {
-        riffleShuffle(tarotDeck);
         setSpread(getSpread(tarotDeck, num));
     }
 
@@ -31,8 +33,10 @@ const TenCard = () => {
     return (
         <div className="options">
             <button type="submit" onClick={() => shuffle()}>Shuffle</button>
-            <button type="submit" onClick={() => { setSpread(null); setTarotDeck(null) }}>Reset</button>
-            <button type="submit" onClick={() => { getThisSpread(10); console.log(spread); }} >Get Spread</button>
+            <button type="submit" onClick={() => { setSpread(null); setTarotDeck(null); }}>Reset</button>
+            <button type="submit" onClick={() => { getThisSpread(10); }} >Get Spread</button>
+            {/* <button type="submit" onClick={() => { console.log(spread); }} >Log Spread</button>
+            <button type="submit" onClick={() => { console.log(tarotDeck); }} >Log Deck</button> */}
             <div>
                 Tips:
                 <ul>
@@ -48,8 +52,8 @@ const TenCard = () => {
                         <div className="conscious">
                             <div className="position_title">Conscious Thoughts</div>
                             <img className="ten_card_image"
-                                alt={spread[3].name}
-                                src={`images/cards/${spread[3].img}`}>
+                                alt={spread[2].name}
+                                src={`images/cards/${spread[2].img}`}>
                             </img>
                             {/* <div>{spread[3].number} {spread[3].name}</div> */}
                         </div>
