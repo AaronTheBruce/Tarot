@@ -36,23 +36,7 @@ const SingleCard = () => {
                 <button className="button button1" onClick={() => { setCard(null); shuffle() }} >Shuffle</button>
                 <button className="button button1" onClick={() => { getThisDeck(); setCard(null) }} >Reset</button>
                 <button className="button button1" onClick={() => getThisCard()} >Draw Card</button>
-                <div className="tips">
-                    <h3>Helpful Tips</h3>
-                    <ul>
-                        <li>
-                            Cards are default in order for exploration, so don't forget to shuffle!
-                        </li>
-                        <li>
-                            Shuffle preforms 3 different shuffles with each click to the Suffle button
-                        </li>
-                        <li>
-                            Reset puts all the cards back in the deck in order
-                        </li>
-                        <li>
-                            Draw Card draws the first card on the top of the deck
-                        </li>
-                    </ul>
-                </div>
+                
             </div>
             {card ?
                 <div className="card">

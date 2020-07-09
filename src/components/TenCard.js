@@ -48,8 +48,6 @@ const TenCard = () => {
         }
     }
 
-
-
     const shiftCard = (e) => {
         e.target.classList.toggle('problem')
     }
@@ -59,21 +57,13 @@ const TenCard = () => {
     }
 
     return (
-        <div className="options">
-            <button className="button button1" type="submit" onClick={() => shuffle()}>Shuffle</button>
-            <button className="button button1" type="submit" onClick={() => { setSpread(null); setTarotDeck(null); }}>Reset</button>
-            <button className="button button1" type="submit" onClick={() => { getThisSpread(10); }} >Get Spread</button>
-            {/* <button type="submit" onClick={() => { console.log(spread); }} >Log Spread</button>
+        <>
+            <div className="options">
+                <button className="button button1" type="submit" onClick={() => shuffle()}>Shuffle</button>
+                <button className="button button1" type="submit" onClick={() => { getThisSpread(10); }} >Get Spread</button>
+                <button className="button button1" type="submit" onClick={() => { setSpread(null); setTarotDeck(null); }}>Reset</button>
+                {/* <button type="submit" onClick={() => { console.log(spread); }} >Log Spread</button>
             <button type="submit" onClick={() => { console.log(tarotDeck); }} >Log Deck</button> */}
-            <div>
-                Tips:
-                    <ul>
-                        <li>Shuffle will shuffle the deck 3 times</li>
-                        <li>Reset will set the deck in order</li>
-                        <li>Get Spread shuffles once and lays out a Celtic Cross spread</li>
-                        <li>Click the horizontal card in the middle to move it for a better view of 'Position By Problem'</li>
-                        <li>Click on an individual card for more detail</li>
-                    </ul>
             </div>
             {spread ?
                 <div className="ten_spread">
@@ -216,11 +206,10 @@ const TenCard = () => {
                         :
                         <div></div>}
                 </div>
-
                 :
-                <div>Think on an issue you would like insight into while shuffling, when ready, Click Get Spread</div>}
-        </div>
-
+                <div className="prompt">Think on an issue you would like insight into while shuffling, when ready, Click Get Spread</div>
+            }
+        </>
     )
 }
 

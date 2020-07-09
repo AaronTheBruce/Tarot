@@ -35,10 +35,38 @@ body {
       font-size: 24px;
   }
 
+  .options {
+      display: grid;
+      grid-template-areas: 'button button button';
+      padding: 10px 0px;
+      margin: 0 10%;
+      justify-content: space-around;
+  }
+
   .active {
 
-
   }
+
+@media only screen and (max-width: 1300px){
+    .ten_spread {
+        display: grid;
+        justify-content: flex-start;
+        justify-items: center;
+        grid-template-areas:
+        'cross spear'
+        'card';
+    }
+}
+
+@media only screen and (min-width: 1301px){
+    .ten_spread {
+        display: grid;
+        justify-content: flex-start;
+        justify-items: center;
+        grid-template-areas:
+        'cross spear card';
+    }
+}
 
 @media only screen and (min-width: 768px){
 
@@ -49,10 +77,6 @@ body {
 
     .hidden {
         display: none;
-    }
-
-    .options {
-        padding: 10px;
     }
 
     nav a {
@@ -232,6 +256,7 @@ body {
         align-self: center;
         border-radius: 16px;
         padding: 10px;
+        width: 350px;
         background-color: rgba(100, 100, 100, .3);
     }
 
@@ -240,9 +265,6 @@ body {
         height: 250px;
     }
 
-    .options {
-        justify-content: center;
-    }
 }
 
 @media only screen and (max-width: 767px){
@@ -263,10 +285,6 @@ body {
 
     .active {
         font-weight: 700;
-    }
-
-    .options {
-        padding: 10px;
     }
 
     nav a {
@@ -296,10 +314,10 @@ body {
     .card {
         display: grid;
         justify-content: center;
+        align-items: center;
         padding: 10px 0px;
         grid-template-areas:
-        'card-image'
-        'card-details';
+        'card-image card-details';
     }
 
     .card-name {
@@ -361,10 +379,6 @@ body {
         padding-left: 10px;
         padding-right: 0px;
         background-color: rgba(100, 100, 100, .3);
-        width: 170px;
-    }
-
-    .options {
-        justify-content: center;
+        width: 350px;
     }
 }
