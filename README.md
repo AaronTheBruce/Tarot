@@ -26,11 +26,10 @@ This position represents the nature of the question asked or the circumstances s
 #### Action to Take (1st position from the right)
 This position involves the essence of an action that would be wise to take
 
-### Ten Card Spread
+## Ten Card Spread
 - Uses what is called a 'Celtic Cross Spread' which is a 10 card layout
 - Allows the user to move the center cards off of one another, which are crossed and can be hard to see.
 - Enables the user to click on an individual card and view details on it.
-
 ### The Present By Problem
 Also known as the Situation Crossed By... <br>
 The upright card behind the horizontal card above it is the Present. This represents the root/essence of the question. <br>
