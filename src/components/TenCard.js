@@ -63,7 +63,7 @@ const TenCard = () => {
                 <button className="button button1" type="submit" onClick={() => { getThisSpread(10); }} >Get Spread</button>
                 <button className="button button1" type="submit" onClick={() => { setSpread(null); setTarotDeck(null); }}>Reset</button>
                 {/* <button type="submit" onClick={() => { console.log(spread); }} >Log Spread</button>
-            <button type="submit" onClick={() => { console.log(tarotDeck); }} >Log Deck</button> */}
+                <button type="submit" onClick={() => { console.log(tarotDeck); }} >Log Deck</button> */}
             </div>
             {spread ?
                 <div className="ten_spread">

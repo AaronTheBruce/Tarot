@@ -38,8 +38,8 @@ const SingleCard = () => {
                 <button className="button button1" onClick={() => { getThisDeck(); setCard(null) }} >Reset</button>
             </div>
             {card ?
-                <div className="card">
-                    <div><img className="card-image" src={`images/cards/${card.img}`} alt={card.name} /></div>
+                <div className="single_card">
+                <img className="card-image" src={`images/cards/${card.img}`} alt={card.name} />
                     <div className="card-details">
                         <div className="card-name">{card.number}: {card.name}</div>
                         <div className="keywords">Keywords: {renderKeywords(card)}</div>
