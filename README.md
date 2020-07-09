@@ -7,9 +7,9 @@ https://tarot-spread-app.herokuapp.com/
 ### Inspiration
 Tarot brings to mind a lot of things. Some view it as a psychological inquiry into an individual's perceptions. Others view it as a spiritual exercise of divination into one's fate. This Application in the developer's opinion would best be utilized in the vein of psychological inquiry. Keep in mind your intention you would like the cards to reflect. The user should ask themselves something Open-Ended. Being too specific about a question in the developer's opinion is outside of the scope of this application.
 
-### Usage Tips
+### Tips
 This App provides 3 spreads.
-- Tips: Provides some basic information behind existing features in the App
+- Provides some basic information behind existing features in the App and offers Usage Advice
 
 ### Single Card
 - Can be used for a single card reading or for explorative purposes
