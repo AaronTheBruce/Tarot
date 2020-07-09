@@ -36,7 +36,6 @@ const SingleCard = () => {
                 <button className="button button1" onClick={() => { setCard(null); shuffle() }} >Shuffle</button>
                 <button className="button button1" onClick={() => getThisCard()} >Draw Card</button>
                 <button className="button button1" onClick={() => { getThisDeck(); setCard(null) }} >Reset</button>
-
             </div>
             {card ?
                 <div className="card">
