@@ -33,9 +33,9 @@ const SingleCard = () => {
     return (
         <div>
             <div className="options">
-                <button type="primary" onClick={() => { setCard(null); shuffle() }} >Shuffle</button>
-                <button type="primary" onClick={() => { getThisDeck(); setCard(null) }} >Reset</button>
-                <button type="primary" onClick={() => getThisCard()} >Draw Card</button>
+                <button className="button button1" onClick={() => { setCard(null); shuffle() }} >Shuffle</button>
+                <button className="button button1" onClick={() => { getThisDeck(); setCard(null) }} >Reset</button>
+                <button className="button button1" onClick={() => getThisCard()} >Draw Card</button>
                 <div className="tips">
                     <h3>Helpful Tips</h3>
                     <ul>

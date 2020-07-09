@@ -3,6 +3,7 @@ html {
     background-image: url('./themes/dark-forest-background-image-1920x1200.jpg');
     background-repeat: no-repeat;
     background-position: top center;
+    background-color: black;
 }
 
 body {
@@ -10,15 +11,41 @@ body {
     color: whitesmoke;
 }
 
-@media only screen and (min-width: 800px){
+.button {
+    background-color: #18181b; /* Green */
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button1:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+  a {
+      font-size: 24px;
+  }
+
+  .active {
+
+
+  }
+
+@media only screen and (min-width: 768px){
 
     ul {
         font-size: 18px;
     }
 
-    .active {
-        font-weight: 700;
-    }
 
     .hidden {
         display: none;
@@ -203,6 +230,7 @@ body {
 
     .card-details {
         align-self: center;
+        border-radius: 16px;
         padding: 10px;
         background-color: rgba(100, 100, 100, .3);
     }
@@ -217,7 +245,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 799px){
+@media only screen and (max-width: 767px){
 
     html {
         background-image: none;
@@ -248,6 +276,21 @@ body {
 
     .prompt {
         margin: 20px 0px;
+    }
+
+    .ten_spread {
+        display: grid;
+        justify-content: flex-start;
+        justify-items: center;
+        grid-template-areas:
+        'cross spear'
+        'card';
+    }
+
+    .ten_card_image {
+        width: 85px;
+        height: 150px;
+        padding: 10px;
     }
 
     .card {
@@ -286,6 +329,16 @@ body {
         height: 300px;
     }
 
+    .three_spread_card {
+        display: grid;
+        padding: 10px 15px;
+        justify-items: center;
+        grid-template-areas:
+        'position-meaning'
+        'card-image'
+        'card-details';
+    }
+
     .three_card_fortune_telling ul li {
         font-size: 12px;
         padding-left: 0;
@@ -302,6 +355,8 @@ body {
     }
 
     .card-details {
+        margin-top: 10px;
+        padding-top: 10px;
         align-self: center;
         padding-left: 10px;
         padding-right: 0px;

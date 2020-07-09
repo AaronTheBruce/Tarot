@@ -13,6 +13,7 @@ const TenCard = () => {
     const shuffle = () => {
         let deck = tarotDeck;
         setTarotDeck(null);
+        setSpread(null);
         deck = riffleShuffle(deck);
         deck = spliceShuffle(deck);
         deck = stackSuffle(deck);
@@ -32,12 +33,6 @@ const TenCard = () => {
         }
     });
 
-    // const tenCardImage = document.querySelector('.ten_card_image');
-
-    // tenCardImage.addEventListener('click', (event) => {
-    //     event.target.classList.add('focus');
-    // });
-
     const cardHandler = (index) => {
         if (card === spread[index]) {
             setCard(null);
@@ -53,6 +48,8 @@ const TenCard = () => {
         }
     }
 
+
+
     const shiftCard = (e) => {
         e.target.classList.toggle('problem')
     }
@@ -63,14 +60,13 @@ const TenCard = () => {
 
     return (
         <div className="options">
-            <button type="submit" onClick={() => shuffle()}>Shuffle</button>
-            <button type="submit" onClick={() => { setSpread(null); setTarotDeck(null); }}>Reset</button>
-            <button type="submit" onClick={() => { getThisSpread(10); }} >Get Spread</button>
+            <button className="button button1" type="submit" onClick={() => shuffle()}>Shuffle</button>
+            <button className="button button1" type="submit" onClick={() => { setSpread(null); setTarotDeck(null); }}>Reset</button>
+            <button className="button button1" type="submit" onClick={() => { getThisSpread(10); }} >Get Spread</button>
             {/* <button type="submit" onClick={() => { console.log(spread); }} >Log Spread</button>
             <button type="submit" onClick={() => { console.log(tarotDeck); }} >Log Deck</button> */}
             <div>
                 Tips:
-                <div onClick={(e) => hideTips(e)}> Hide
                     <ul>
                         <li>Shuffle will shuffle the deck 3 times</li>
                         <li>Reset will set the deck in order</li>
@@ -78,7 +74,6 @@ const TenCard = () => {
                         <li>Click the horizontal card in the middle to move it for a better view of 'Position By Problem'</li>
                         <li>Click on an individual card for more detail</li>
                     </ul>
-                </div>
             </div>
             {spread ?
                 <div className="ten_spread">

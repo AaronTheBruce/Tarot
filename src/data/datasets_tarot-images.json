@@ -1,13 +1,13 @@
 {
-  "description": "tarot cards and basic information about them, as well as references to corresponding scans",
-  "cards": [
-    {
-      "name": "The Fool",
-      "number": "0",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m00.jpg",
-	  "fortune_telling": [
+    "description": "tarot cards and basic information about them, as well as references to corresponding scans",
+    "cards": [
+        {
+            "name": "The Fool",
+            "number": "0",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m00.jpg",
+            "fortune_telling": [
                 "Watch for new projects and new beginnings",
                 "Prepare to take something on faith",
                 "Something new comes your way; go for it"
@@ -39,20 +39,24 @@
                     "Behaving inappropriately"
                 ]
             },
-		"Archetype": "The Divine Madman",
-		"Hebrew Alphabet": "Aleph/Ox/1",
-		"Numerology": "0 (off the scale; pure potential)",
-		"Elemental": "Air",
-		"Mythical/Spiritual": "Adam before the fall. Christ as a wandering holy madman. Deity wrapped in human flesh. The Holy Spirit.",
-      "QuestionsToAsk" : ["What would I do if I felt free to take a leap?","How willing am I to be vulnerable and open?","How might past experiences help in this new situation?"]
-    },
-    {
-      "name": "The Magician",
-      "number": "1",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m01.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Divine Madman",
+            "Hebrew Alphabet": "Aleph/Ox/1",
+            "Numerology": "0 (off the scale; pure potential)",
+            "Elemental": "Air",
+            "Mythical/Spiritual": "Adam before the fall. Christ as a wandering holy madman. Deity wrapped in human flesh. The Holy Spirit.",
+            "QuestionsToAsk": [
+                "What would I do if I felt free to take a leap?",
+                "How willing am I to be vulnerable and open?",
+                "How might past experiences help in this new situation?"
+            ]
+        },
+        {
+            "name": "The Magician",
+            "number": "1",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m01.jpg",
+            "fortune_telling": [
                 "A powerful man may play a role in your day",
                 "Your current situation must be seen as one element of a much larger plan"
             ],
@@ -79,19 +83,24 @@
                     "Taking shortcuts"
                 ]
             },
-		"Archetype" : "The Ego/The Self",
-		"Hebrew Alphabet" : "Beth/House/2",
-		"Numerology" : "1 (origins, unity, seeds)",
-		"Elemental" : "The Sun/Mercury",		"Mythical/Spiritual" : "Thoth, the Egyptian god of wisdom, known to the Greeks as Hermes and to the Romans as Mercury. Christ working miracles. Brahma, the Creator.",
-		"QuestionsToAsk" : ["What am I empowered to do?","How might my abilities come into play?","To what extent am I making the most of my talents?"]
-    },
-    {
-      "name": "The High Priestess",
-      "number": "2",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m02.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Ego/The Self",
+            "Hebrew Alphabet": "Beth/House/2",
+            "Numerology": "1 (origins, unity, seeds)",
+            "Elemental": "The Sun/Mercury",
+            "Mythical/Spiritual": "Thoth, the Egyptian god of wisdom, known to the Greeks as Hermes and to the Romans as Mercury. Christ working miracles. Brahma, the Creator.",
+            "QuestionsToAsk": [
+                "What am I empowered to do?",
+                "How might my abilities come into play?",
+                "To what extent am I making the most of my talents?"
+            ]
+        },
+        {
+            "name": "The High Priestess",
+            "number": "2",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m02.jpg",
+            "fortune_telling": [
                 "A mysterious woman arrives",
                 "A sexual secret may surface",
                 "Someone knows more than he or she will reveal"
@@ -121,20 +130,24 @@
                     "Refusing to become involved, even when involvement is appropriate"
                 ]
             },
-		"Archetype" : "The Virgin/The Maiden",
-      "Hebrew Alphabet" : "Gimel/Camel/3",
-      "Numerology" : "2 (division, debate, duality)",
-      "Elemental" : "The Moon",
-      "Mythical/Spiritual" : "The feminine aspect of divinity, particularity when expressed through virginity, as with the Virgin Mary or Isis.",
-	  "QuestionsToAsk" : ["What might a rebel against tradition do?","What isn't being said or revealed?","What could be achieved by observing and reflecting?"]
-    },
-    {
-      "name": "The Empress",
-      "number": "3",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m03.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Virgin/The Maiden",
+            "Hebrew Alphabet": "Gimel/Camel/3",
+            "Numerology": "2 (division, debate, duality)",
+            "Elemental": "The Moon",
+            "Mythical/Spiritual": "The feminine aspect of divinity, particularity when expressed through virginity, as with the Virgin Mary or Isis.",
+            "QuestionsToAsk": [
+                "What might a rebel against tradition do?",
+                "What isn't being said or revealed?",
+                "What could be achieved by observing and reflecting?"
+            ]
+        },
+        {
+            "name": "The Empress",
+            "number": "3",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m03.jpg",
+            "fortune_telling": [
                 "Pregnancy is in the cards",
                 "An opportunity to be involved in luxurious sexuality is coming",
                 "Beware a tendency toward addiction"
@@ -165,20 +178,24 @@
                     "Being overcome by addictive behavior"
                 ]
             },
-		"Archetype" : "The Mother",
-      "Hebrew Alphabet" : "Daleth/Door/4",
-      "Numerology" : "3 (expression, productivity, output)",
-      "Elemental" : "Venus",
-      "Mythical/Spiritual" : "Gaia, Mother Earth, Ishtar, DemeterÑmature, reproductive female divinity in every form. Also Aphrodite and Turan. ",
-	  "QuestionsToAsk" : ["What would a concerned and capable mother do?","What can I do that would emphasize growth?","How can I celebrate my own sensuality and sexuality?"]
-    },
-    {
-      "name": "The Emperor",
-      "number": "4",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m04.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Mother",
+            "Hebrew Alphabet": "Daleth/Door/4",
+            "Numerology": "3 (expression, productivity, output)",
+            "Elemental": "Venus",
+            "Mythical/Spiritual": "Gaia, Mother Earth, Ishtar, DemeterÑmature, reproductive female divinity in every form. Also Aphrodite and Turan. ",
+            "QuestionsToAsk": [
+                "What would a concerned and capable mother do?",
+                "What can I do that would emphasize growth?",
+                "How can I celebrate my own sensuality and sexuality?"
+            ]
+        },
+        {
+            "name": "The Emperor",
+            "number": "4",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m04.jpg",
+            "fortune_telling": [
                 "A father figure arrives",
                 "A new employer or authority figure will give you orders",
                 "Expect discipline or correction in the near future"
@@ -206,20 +223,24 @@
                     "Using overt force to achieve your goals and maintain order"
                 ]
             },
-		"Archetype" : "The Father",
-      "Hebrew Alphabet" : "He[as]/Window/5, or in some decks, Tzaddi/Fish hook/90",
-      "Numerology" : "4 (stability, equality, persistence)",
-      "Elemental" : "Mars/Aries",
-      "Mythical/Spiritual" : "Masculine gods, including the Hebrew God, the Christian God, Allah, and Zeus. Patriarchs (Abraham) and lawgivers (Moses). Vishnu, the Preserver.",
-	  "QuestionsToAsk" : ["How does the issue of control or regulation impact this situation?","What would a compassionate but strict father do?","What needs more control?"]
-    },
-    {
-      "name": "The Hierophant",
-      "number": "5",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m05.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Father",
+            "Hebrew Alphabet": "He[as]/Window/5, or in some decks, Tzaddi/Fish hook/90",
+            "Numerology": "4 (stability, equality, persistence)",
+            "Elemental": "Mars/Aries",
+            "Mythical/Spiritual": "Masculine gods, including the Hebrew God, the Christian God, Allah, and Zeus. Patriarchs (Abraham) and lawgivers (Moses). Vishnu, the Preserver.",
+            "QuestionsToAsk": [
+                "How does the issue of control or regulation impact this situation?",
+                "What would a compassionate but strict father do?",
+                "What needs more control?"
+            ]
+        },
+        {
+            "name": "The Hierophant",
+            "number": "5",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m05.jpg",
+            "fortune_telling": [
                 "Expect to be caught in a misdeed and punished accordingly",
                 "Pray for forgiveness and confess wrongdoings",
                 "A more experienced man, spiritual leader, or father figure will come into your life"
@@ -249,20 +270,24 @@
                     "Restricting access to spiritual truths or the gods"
                 ]
             },
-		"Archetype" : "The Guardian/The Church/Faith",
-      "Hebrew Alphabet" : "Vau/Nail or Spike/6",
-      "Numerology" : "5 (instability, resistance, confrontation, evolution)",
-      "Elemental" : "Taurus/Earth",
-      "Mythical/Spiritual" : "The Christ, the Apostle Peter, Buddha, Mohammed. Popes, priests, and intercessors of every faith and tradition",
-	  "QuestionsToAsk" : ["What role might tradition or religion play in this situation?","Who authored the rules? Who enforces them? Why?","How might an experienced guide impact this situation?"]
-    },
-    {
-      "name": "The Lovers",
-      "number": "6",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m06.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Guardian/The Church/Faith",
+            "Hebrew Alphabet": "Vau/Nail or Spike/6",
+            "Numerology": "5 (instability, resistance, confrontation, evolution)",
+            "Elemental": "Taurus/Earth",
+            "Mythical/Spiritual": "The Christ, the Apostle Peter, Buddha, Mohammed. Popes, priests, and intercessors of every faith and tradition",
+            "QuestionsToAsk": [
+                "What role might tradition or religion play in this situation?",
+                "Who authored the rules? Who enforces them? Why?",
+                "How might an experienced guide impact this situation?"
+            ]
+        },
+        {
+            "name": "The Lovers",
+            "number": "6",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m06.jpg",
+            "fortune_telling": [
                 "A new personal or professional relationship blossoms",
                 "Sexual opportunities abound",
                 "Unexpectedly, a friend becomes a lover"
@@ -290,20 +315,24 @@
                     "Ill-informed decisions"
                 ]
             },
-		"Archetype" : "The Lover/Sexual Awakening",
-      "Hebrew Alphabet" : "Zain/Sword/7",
-      "Numerology" : "6 (cooperation, collaboration, interaction)",
-      "Elemental" : "Gemini",
-      "Mythical/Spiritual" : "Obviously, Adam and Eve, who are depicted in RWS-influenced decks. Also Venus and Cupid, Aphrodite and Eros.",
-	  "QuestionsToAsk" : ["What guides my choices?","What is my heart leading me to do?","How might this decision transform me as a person?"]
-    },
-    {
-      "name": "The Chariot",
-      "number": "7",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m07.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Lover/Sexual Awakening",
+            "Hebrew Alphabet": "Zain/Sword/7",
+            "Numerology": "6 (cooperation, collaboration, interaction)",
+            "Elemental": "Gemini",
+            "Mythical/Spiritual": "Obviously, Adam and Eve, who are depicted in RWS-influenced decks. Also Venus and Cupid, Aphrodite and Eros.",
+            "QuestionsToAsk": [
+                "What guides my choices?",
+                "What is my heart leading me to do?",
+                "How might this decision transform me as a person?"
+            ]
+        },
+        {
+            "name": "The Chariot",
+            "number": "7",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m07.jpg",
+            "fortune_telling": [
                 "Victory is a certainty",
                 "Move ahead with all plans",
                 "Beware the jealousy of others"
@@ -330,20 +359,24 @@
                     "Failing to rein in impulsive behavior"
                 ]
             },
-		"Archetype" : "The Victorious Hero",
-      "Hebrew Alphabet" : "Cheth/Fence/8",
-      "Numerology" : "7 (imagination, inner work, psychology)",
-      "Elemental" : "Cancer",
-      "Mythical/Spiritual" : "Odysseus. Jason. The search for the Holy Grail. Christ's triumphal entry into Jerusalem.",
-	  "QuestionsToAsk" : ["To what extent have I arrived? What will my next challenge be?","How can I use past achievements to their best advantage?","What would the criteria for real and meaningful success be?"]
-    },
-    {
-      "name": "Strength",
-      "number": "8",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m08.jpg",
-	   "fortune_telling": [
+            "Archetype": "The Victorious Hero",
+            "Hebrew Alphabet": "Cheth/Fence/8",
+            "Numerology": "7 (imagination, inner work, psychology)",
+            "Elemental": "Cancer",
+            "Mythical/Spiritual": "Odysseus. Jason. The search for the Holy Grail. Christ's triumphal entry into Jerusalem.",
+            "QuestionsToAsk": [
+                "To what extent have I arrived? What will my next challenge be?",
+                "How can I use past achievements to their best advantage?",
+                "What would the criteria for real and meaningful success be?"
+            ]
+        },
+        {
+            "name": "Strength",
+            "number": "8",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m08.jpg",
+            "fortune_telling": [
                 "Your self-control will be tested",
                 "A woman will seek to change her partner or lover",
                 "You are a strong, capable person"
@@ -369,20 +402,24 @@
                     "Failing to take a stand when necessary"
                 ]
             },
-		"Archetype" : "The Law",
-      "Hebrew Alphabet" : "Lamed/Outstretched Arms/30 or Theth/Snake/9",
-      "Numerology" : "8 (movement, work) or 11 = 1 + 1 = 2 (debate, duality)",
-      "Elemental" : "Libra or Leo",
-      "Mythical/Spiritual" : "Themis or Justitia. Ma'at. Solomon dividing a baby. The Sword of Damocles. The giving of the Ten Commandments.",
-	  "QuestionsToAsk" : ["To what extent is your life (or work) balanced?","How can you achieve greater objectivity?","What course of action would be fair to everyone concerned?"]
-    },
-    {
-      "name": "The Hermit",
-      "number": "9",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m09.jpg",
-	   "fortune_telling": [
+            "Archetype": "The Law",
+            "Hebrew Alphabet": "Lamed/Outstretched Arms/30 or Theth/Snake/9",
+            "Numerology": "8 (movement, work) or 11 = 1 + 1 = 2 (debate, duality)",
+            "Elemental": "Libra or Leo",
+            "Mythical/Spiritual": "Themis or Justitia. Ma'at. Solomon dividing a baby. The Sword of Damocles. The giving of the Ten Commandments.",
+            "QuestionsToAsk": [
+                "To what extent is your life (or work) balanced?",
+                "How can you achieve greater objectivity?",
+                "What course of action would be fair to everyone concerned?"
+            ]
+        },
+        {
+            "name": "The Hermit",
+            "number": "9",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m09.jpg",
+            "fortune_telling": [
                 "A period of loneliness begins",
                 "One partner in a relationship departs",
                 "A search for love or money proves fruitless"
@@ -409,20 +446,24 @@
                     "Hiding your skills and talents out of fear of unworthiness"
                 ]
             },
-		"Archetype" : "The Holy Man",
-      "Hebrew Alphabet" : "Yod/Hand/10",
-      "Numerology" : "9 (fullness, readiness, ripeness)",
-      "Elemental" : "Virgo",
-      "Mythical/Spiritual" : "The Christ, while fasting 40 days in the wilderness. Chronos, the god of time. Father Time. Hermes.",
-	  "QuestionsToAsk" : ["What would happen if I simply withdrew and took no action?","How can I get some perspective on the situation?","Who has walked this path before me? How can I enlist his or her help?"]
-    },
-    {
-      "name": "Wheel of Fortune",
-      "number": "10",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m10.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Holy Man",
+            "Hebrew Alphabet": "Yod/Hand/10",
+            "Numerology": "9 (fullness, readiness, ripeness)",
+            "Elemental": "Virgo",
+            "Mythical/Spiritual": "The Christ, while fasting 40 days in the wilderness. Chronos, the god of time. Father Time. Hermes.",
+            "QuestionsToAsk": [
+                "What would happen if I simply withdrew and took no action?",
+                "How can I get some perspective on the situation?",
+                "Who has walked this path before me? How can I enlist his or her help?"
+            ]
+        },
+        {
+            "name": "Wheel of Fortune",
+            "number": "10",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m10.jpg",
+            "fortune_telling": [
                 "Some events are in the hands of heaven",
                 "You've lived through this before",
                 "What happened then?"
@@ -450,20 +491,24 @@
                     "Fighting the natural course of events"
                 ]
             },
-		"Archetype" : "The Fates/Destiny",
-      "Hebrew Alphabet" : "Koph/Palm/20",
-      "Numerology" : "10 (finality, completion) and 10 = 1 + 0 = 1 (seed, opportunity)",
-      "Elemental" : "Jupiter",
-      "Mythical/Spiritual" : "The God in the Machine. Deus ex Machina. Clotho, Lachesis, and Atropos. Fortuna.",
-	  "QuestionsToAsk" : ["How does this challenge fit into a larger pattern?","What role does luck play in my circumstances?","What can I control? How should I know when to relinquish control?"]
-    },
-    {
-      "name": "Justice",
-      "number": "11",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m11.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Fates/Destiny",
+            "Hebrew Alphabet": "Koph/Palm/20",
+            "Numerology": "10 (finality, completion) and 10 = 1 + 0 = 1 (seed, opportunity)",
+            "Elemental": "Jupiter",
+            "Mythical/Spiritual": "The God in the Machine. Deus ex Machina. Clotho, Lachesis, and Atropos. Fortuna.",
+            "QuestionsToAsk": [
+                "How does this challenge fit into a larger pattern?",
+                "What role does luck play in my circumstances?",
+                "What can I control? How should I know when to relinquish control?"
+            ]
+        },
+        {
+            "name": "Justice",
+            "number": "11",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m11.jpg",
+            "fortune_telling": [
                 "A legal verdict will be rendered soon",
                 "Someone is making a decision",
                 "You need to get the facts"
@@ -491,20 +536,24 @@
                     "Playing favorites"
                 ]
             },
-		"Archetype" : "The Id",
-      "Hebrew Alphabet" : "Theth/Snake/9 or Lamed/Outstretched Arms/30",
-      "Numerology" : "11 = 1 + 1 = 2 (debate, duality) or 8 (movement, outer work)",
-      "Elemental" : "Leo or Libra",
-      "Mythical/Spiritual" : "Samson. Hercules. Daniel in the lion's den. The sinless Christ.",
-	  "QuestionsToAsk" : ["How can I enhance my self-discipline?","What behaviors tempt me? How can I resist?","What instincts do I continue to struggle with today?"]
-    },
-    {
-      "name": "The Hanged Man",
-      "number": "12",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m12.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Id",
+            "Hebrew Alphabet": "Theth/Snake/9 or Lamed/Outstretched Arms/30",
+            "Numerology": "11 = 1 + 1 = 2 (debate, duality) or 8 (movement, outer work)",
+            "Elemental": "Leo or Libra",
+            "Mythical/Spiritual": "Samson. Hercules. Daniel in the lion's den. The sinless Christ.",
+            "QuestionsToAsk": [
+                "How can I enhance my self-discipline?",
+                "What behaviors tempt me? How can I resist?",
+                "What instincts do I continue to struggle with today?"
+            ]
+        },
+        {
+            "name": "The Hanged Man",
+            "number": "12",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m12.jpg",
+            "fortune_telling": [
                 "A traitor is revealed",
                 "One of your friends is working against you",
                 "Change your ways or suffer the consequences"
@@ -532,20 +581,24 @@
                     "Profiting at the expense of others"
                 ]
             },
-		"Archetype" : "The Traitor",
-      "Hebrew Alphabet" : "Mem/Water/40",
-      "Numerology" : "12 = 1 + 2 = 3 (expression, productivity, output)",
-      "Elemental" : "Water",
-      "Mythical/Spiritual" : "The Crucified Christ. Isaac as a sacrifice. Prometheus bound. Jonah and the whale. Lazarus. Any hanged or sacrificed god. Judas.",
-	  "QuestionsToAsk" : ["How can I radically alter my perspective?","How might being stuck actually be a blessing in disguise?","How can I help myself see the glass as half full?"]
-    },
-    {
-      "name": "Death",
-      "number": "13",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m13.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Traitor",
+            "Hebrew Alphabet": "Mem/Water/40",
+            "Numerology": "12 = 1 + 2 = 3 (expression, productivity, output)",
+            "Elemental": "Water",
+            "Mythical/Spiritual": "The Crucified Christ. Isaac as a sacrifice. Prometheus bound. Jonah and the whale. Lazarus. Any hanged or sacrificed god. Judas.",
+            "QuestionsToAsk": [
+                "How can I radically alter my perspective?",
+                "How might being stuck actually be a blessing in disguise?",
+                "How can I help myself see the glass as half full?"
+            ]
+        },
+        {
+            "name": "Death",
+            "number": "13",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m13.jpg",
+            "fortune_telling": [
                 "A relationship or illness ends suddenly",
                 "Limit travel and risk-taking",
                 "General gloom and doom"
@@ -573,20 +626,24 @@
                     "Failing to take good care of yourself"
                 ]
             },
-		"Archetype" : "Death",
-      "Hebrew Alphabet" : "Nun/Fish/50",
-      "Numerology" : "13 = 1 + 3 = 4 (stability, persistence)",
-      "Elemental" : "Scorpio",
-      "Mythical/Spiritual" : "Christ in the tomb. Hades. Hypnos. Thanatos. Stories of journeys into the underworld.",
-	  "QuestionsToAsk" : ["What needs to end?","How might an ending actually be a blessing in this situation?","What's next?"]
-    },
-    {
-      "name": "Temperance",
-      "number": "14",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m14.jpg",
-	  "fortune_telling": [
+            "Archetype": "Death",
+            "Hebrew Alphabet": "Nun/Fish/50",
+            "Numerology": "13 = 1 + 3 = 4 (stability, persistence)",
+            "Elemental": "Scorpio",
+            "Mythical/Spiritual": "Christ in the tomb. Hades. Hypnos. Thanatos. Stories of journeys into the underworld.",
+            "QuestionsToAsk": [
+                "What needs to end?",
+                "How might an ending actually be a blessing in this situation?",
+                "What's next?"
+            ]
+        },
+        {
+            "name": "Temperance",
+            "number": "14",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m14.jpg",
+            "fortune_telling": [
                 "Someone's using drugs or alcohol to excess",
                 "It's time to get back on that diet"
             ],
@@ -616,20 +673,24 @@
                     "Breaking alliances"
                 ]
             },
-		"Archetype" : "The Mediator",
-      "Hebrew Alphabet" : "Samekh/Foundation/60",
-      "Numerology" : "14 = 1 + 4 = 5 (catalyst, instability, confrontation)",
-      "Elemental" : "Sagittarius",
-      "Mythical/Spiritual" : "The angel seen here may be the goddess Iris. By extension, priests, priesthoods, or the transfigured Christ.",
-	  "QuestionsToAsk" : ["How can I avoid extremes?","What does everyone involved have in common?","How might combining familiar things help me create something new?"]
-    },
-    {
-      "name": "The Devil",
-      "number": "15",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m15.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Mediator",
+            "Hebrew Alphabet": "Samekh/Foundation/60",
+            "Numerology": "14 = 1 + 4 = 5 (catalyst, instability, confrontation)",
+            "Elemental": "Sagittarius",
+            "Mythical/Spiritual": "The angel seen here may be the goddess Iris. By extension, priests, priesthoods, or the transfigured Christ.",
+            "QuestionsToAsk": [
+                "How can I avoid extremes?",
+                "What does everyone involved have in common?",
+                "How might combining familiar things help me create something new?"
+            ]
+        },
+        {
+            "name": "The Devil",
+            "number": "15",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m15.jpg",
+            "fortune_telling": [
                 "Adultery and unfaithfulness",
                 "A string of extremely bad luck is coming your way",
                 "Beware evil influences and wolves in sheep's clothing"
@@ -658,20 +719,24 @@
                     "Attributing your own dark impulses to outside forces or other people"
                 ]
             },
-		"Archetype" : "The Shadow, The Other",
-      "Hebrew Alphabet" : "Ayin/Eye/70",
-      "Numerology" : "15 = 1 + 5 = 6 (adjustment, collaboration)",
-      "Elemental" : "Capricorn",
-      "Mythical/Spiritual" : "The Biblical Satan, certainly. Fallen angels, including Lucifer. Bacchus and Pan. Tempters and serpents of every stripe.",
-	  "QuestionsToAsk" : ["What enslaves me? How can I set myself free?","How can I re-evaluate the importance I assign to material things?","To what extent do my cravings define me?"]
-    },
-    {
-      "name": "The Tower",
-      "number": "16",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m16.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Shadow, The Other",
+            "Hebrew Alphabet": "Ayin/Eye/70",
+            "Numerology": "15 = 1 + 5 = 6 (adjustment, collaboration)",
+            "Elemental": "Capricorn",
+            "Mythical/Spiritual": "The Biblical Satan, certainly. Fallen angels, including Lucifer. Bacchus and Pan. Tempters and serpents of every stripe.",
+            "QuestionsToAsk": [
+                "What enslaves me? How can I set myself free?",
+                "How can I re-evaluate the importance I assign to material things?",
+                "To what extent do my cravings define me?"
+            ]
+        },
+        {
+            "name": "The Tower",
+            "number": "16",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m16.jpg",
+            "fortune_telling": [
                 "Impending disaster",
                 "Cancel plans and reverse decisions",
                 "Someone wants to take you down a notch or two",
@@ -701,20 +766,24 @@
                     "Maliciously engaging in destructive behavior"
                 ]
             },
-		"Archetype" : "The Shattered Ego",
-      "Hebrew Alphabet" : "Pe[as]/Open Mouth/80",
-      "Numerology" : "16 = 1 + 6 = 7 (psychology, imagination, inner work)",
-      "Elemental" : "Mars",
-      "Mythical/Spiritual" : "The Tower of Babel. The destruction of Sodom and Gomorrah. Shiva's destructive dance. The lightning of Zeus and Thor.",
-	  "QuestionsToAsk" : ["How might the current situation dramatically alter my perspective?","How might this loss open the door for new growth?","What attitudes need to be struck down before I proceed?"]
-    },
-    {
-      "name": "The Star",
-      "number": "17",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m17.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Shattered Ego",
+            "Hebrew Alphabet": "Pe[as]/Open Mouth/80",
+            "Numerology": "16 = 1 + 6 = 7 (psychology, imagination, inner work)",
+            "Elemental": "Mars",
+            "Mythical/Spiritual": "The Tower of Babel. The destruction of Sodom and Gomorrah. Shiva's destructive dance. The lightning of Zeus and Thor.",
+            "QuestionsToAsk": [
+                "How might the current situation dramatically alter my perspective?",
+                "How might this loss open the door for new growth?",
+                "What attitudes need to be struck down before I proceed?"
+            ]
+        },
+        {
+            "name": "The Star",
+            "number": "17",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m17.jpg",
+            "fortune_telling": [
                 "Get an astrology chart drawn up",
                 "Someone is a little too starstruck",
                 "What's happening now has long been fore-ordained"
@@ -745,20 +814,24 @@
                     "Spreading pessimism and stinginess of spirit"
                 ]
             },
-		"Archetype" : "The Heavenly Guide",
-      "Hebrew Alphabet" : "Tzaddi/Fishhook/90 or, in some decks, He[as]/Window/5",
-      "Numerology" : "17 = 1 + 7 = 8 (action, movement, swiftness)",
-      "Elemental" : "Aquarius",
-      "Mythical/Spiritual" : "The star that guided the Magi. Aphrodite. Venus. The Pleiades. Moses bringing forth water from the rock.",
-	  "QuestionsToAsk" : ["What would my higher power direct me to do?","How can I be less self-conscious and guarded?","How can I better attune myself to the abundance of life's blessings?"]
-    },
-    {
-      "name": "The Moon",
-      "number": "18",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m18.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Heavenly Guide",
+            "Hebrew Alphabet": "Tzaddi/Fishhook/90 or, in some decks, He[as]/Window/5",
+            "Numerology": "17 = 1 + 7 = 8 (action, movement, swiftness)",
+            "Elemental": "Aquarius",
+            "Mythical/Spiritual": "The star that guided the Magi. Aphrodite. Venus. The Pleiades. Moses bringing forth water from the rock.",
+            "QuestionsToAsk": [
+                "What would my higher power direct me to do?",
+                "How can I be less self-conscious and guarded?",
+                "How can I better attune myself to the abundance of life's blessings?"
+            ]
+        },
+        {
+            "name": "The Moon",
+            "number": "18",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m18.jpg",
+            "fortune_telling": [
                 "Watch for problems at the end of the month",
                 "Someone you know needs to howl at the moon more often",
                 "Someone is about to change his or her mind about an important decision"
@@ -786,20 +859,24 @@
                     "Failing to appreciate life's mysteries"
                 ]
             },
-		"Archetype" : "The Holy Feminine/The Crone",
-      "Hebrew Alphabet" : "Koph/Back of the Head/100",
-      "Numerology" : "18 = 1 + 8 = 9 (fullness, readiness, ripeness)",
-      "Elemental" : "Pisces",
-      "Mythical/Spiritual" : "Kali, the dark-skinned divine mother associated with time, the eternal night, and the female principle. Hecate, goddess of night and darkness, who, like Anubis, assists others in their travels to the underworld. ",
-	  "QuestionsToAsk" : ["How can I face my fears and move forward?","What helpers can serve me as guides through my personal darkness?","How can I deal with the unknown in healthy ways?"]
-    },
-    {
-      "name": "The Sun",
-      "number": "19",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m19.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Holy Feminine/The Crone",
+            "Hebrew Alphabet": "Koph/Back of the Head/100",
+            "Numerology": "18 = 1 + 8 = 9 (fullness, readiness, ripeness)",
+            "Elemental": "Pisces",
+            "Mythical/Spiritual": "Kali, the dark-skinned divine mother associated with time, the eternal night, and the female principle. Hecate, goddess of night and darkness, who, like Anubis, assists others in their travels to the underworld. ",
+            "QuestionsToAsk": [
+                "How can I face my fears and move forward?",
+                "What helpers can serve me as guides through my personal darkness?",
+                "How can I deal with the unknown in healthy ways?"
+            ]
+        },
+        {
+            "name": "The Sun",
+            "number": "19",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m19.jpg",
+            "fortune_telling": [
                 "Everything's coming up roses (or sunflowers, whatever the case may be)",
                 "Whatever's on your mind, go for it because you can't lose today"
             ],
@@ -826,20 +903,24 @@
                     "Overstating your abilities or misrepresenting your achievements"
                 ]
             },
-		"Archetype" : "The Holy Masculine",
-      "Hebrew Alphabet" : "Resh/Head/200",
-      "Numerology" : "19 = 1 + 9 = 10 (completion, exhaustion) 1 + 0 = 1 (starting point, opportunity)",
-      "Elemental" : "The Sun",
-      "Mythical/Spiritual" : "God the Father. Sun gods, including Ra, Apollo, and Helios. The moment of baptism. Claiming a new faith as your own.",
-	  "QuestionsToAsk" : ["How can I take best advantage of the attention coming my way?","What are my highest spiritual goals?","How can I avoid being bedazzled by the energy swirling around me?"]
-    },
-    {
-      "name": "Judgement",
-      "number": "20",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m20.jpg",
-	  "fortune_telling": [
+            "Archetype": "The Holy Masculine",
+            "Hebrew Alphabet": "Resh/Head/200",
+            "Numerology": "19 = 1 + 9 = 10 (completion, exhaustion) 1 + 0 = 1 (starting point, opportunity)",
+            "Elemental": "The Sun",
+            "Mythical/Spiritual": "God the Father. Sun gods, including Ra, Apollo, and Helios. The moment of baptism. Claiming a new faith as your own.",
+            "QuestionsToAsk": [
+                "How can I take best advantage of the attention coming my way?",
+                "What are my highest spiritual goals?",
+                "How can I avoid being bedazzled by the energy swirling around me?"
+            ]
+        },
+        {
+            "name": "Judgement",
+            "number": "20",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m20.jpg",
+            "fortune_telling": [
                 "An old issue you thought was over will come up again today",
                 "Get ready for huge changes: break-ups, sudden calls from old friends, and unexpected setbacks",
                 "God's trying to get your attention"
@@ -868,20 +949,24 @@
                     "Rejecting an opportunity to reinvent yourself"
                 ]
             },
-		"Archetype" : "Resurrection",
-      "Hebrew Alphabet" : "Sin/Tooth/300",
-      "Numerology" : "20 = 2 + 0 = 2 (division, duality)",
-      "Elemental" : "Fire",
-      "Mythical/Spiritual" : "The resurrected Christ. The Last Judgment of Revelation. The phoenix, which rises to new life from its own ashes.",
-	  "QuestionsToAsk" : ["What is the main thing I need to realize about myself?","In what way might the universe be trying to get my attention?","If I were to reinvent myself, what would I become?"]
-    },
-    {
-      "name": "The World",
-      "number": "21",
-      "arcana": "Major Arcana",
-      "suit": "Trump",
-      "img": "m21.jpg",
-	  "fortune_telling": [
+            "Archetype": "Resurrection",
+            "Hebrew Alphabet": "Sin/Tooth/300",
+            "Numerology": "20 = 2 + 0 = 2 (division, duality)",
+            "Elemental": "Fire",
+            "Mythical/Spiritual": "The resurrected Christ. The Last Judgment of Revelation. The phoenix, which rises to new life from its own ashes.",
+            "QuestionsToAsk": [
+                "What is the main thing I need to realize about myself?",
+                "In what way might the universe be trying to get my attention?",
+                "If I were to reinvent myself, what would I become?"
+            ]
+        },
+        {
+            "name": "The World",
+            "number": "21",
+            "arcana": "Major Arcana",
+            "suit": "Trump",
+            "img": "m21.jpg",
+            "fortune_telling": [
                 "Winning the lottery",
                 "Getting your heart's desire",
                 "Having everything you ever imagined having"
@@ -909,20 +994,24 @@
                     "Failing to see the divine reflected in those around you"
                 ]
             },
-		"Archetype" : "Enlightenment",
-      "Hebrew Alphabet" : "Tau/Cross/400",
-      "Numerology" : "21 = 2 + 1 = 3 (expression, result)",
-      "Elemental" : "Saturn",
-      "Mythical/Spiritual" : "The ascended Christ. The Buddha attaining enlightenment. The alpha and the omega. The completion of the alchemist's great work.",
-	  "QuestionsToAsk" : ["For me, what would having it all mean?","How aware am I of my own connectedness to the world around me?","What keeps me from having it all right now, today?"]
-    },
-    {
-      "name": "Ace of Cups",
-      "number": "1",
-      "arcana": "Minor Arcana",
-      "suit": "Cups",
-      "img": "c01.jpg",
-	  "fortune_telling": [
+            "Archetype": "Enlightenment",
+            "Hebrew Alphabet": "Tau/Cross/400",
+            "Numerology": "21 = 2 + 1 = 3 (expression, result)",
+            "Elemental": "Saturn",
+            "Mythical/Spiritual": "The ascended Christ. The Buddha attaining enlightenment. The alpha and the omega. The completion of the alchemist's great work.",
+            "QuestionsToAsk": [
+                "For me, what would having it all mean?",
+                "How aware am I of my own connectedness to the world around me?",
+                "What keeps me from having it all right now, today?"
+            ]
+        },
+        {
+            "name": "Ace of Cups",
+            "number": "1",
+            "arcana": "Minor Arcana",
+            "suit": "Cups",
+            "img": "c01.jpg",
+            "fortune_telling": [
                 "Romance is in the cards",
                 "A new relationship or marriage is just around the corner",
                 "Prayers are answered"
@@ -951,18 +1040,22 @@
                     "Indulging in hysteria or obsession"
                 ]
             },
-		"Numerology" : "1 (The Origin: the starting point, the seed, opportunity)",
-      "Astrology" : "Cancer, Scorpio, Pisces",
-      "Affirmation" : "\"I listen to the counsel of my heart.\"",
-	  "QuestionsToAsk" : ["What am I feeling right now?","How would I go about opening myself to spiritual guidance?","What motivates me the most - pleasure or pain? Why?"]
-    },
-    {
-      "name": "Two of Cups",
-      "number": "2",
-      "arcana": "Minor Arcana",
-      "suit": "Cups",
-      "img": "c02.jpg",
-	  "fortune_telling": [
+            "Numerology": "1 (The Origin: the starting point, the seed, opportunity)",
+            "Astrology": "Cancer, Scorpio, Pisces",
+            "Affirmation": "\"I listen to the counsel of my heart.\"",
+            "QuestionsToAsk": [
+                "What am I feeling right now?",
+                "How would I go about opening myself to spiritual guidance?",
+                "What motivates me the most - pleasure or pain? Why?"
+            ]
+        },
+        {
+            "name": "Two of Cups",
+            "number": "2",
+            "arcana": "Minor Arcana",
+            "suit": "Cups",
+            "img": "c02.jpg",
+            "fortune_telling": [
                 "Someone has a secret crush on you",
                 "Relationships should be mutual; get rid of a leech"
             ],
@@ -992,18 +1085,21 @@
                     "Deceiving yourself about your true orientation"
                 ]
             },
-		"Numerology" : "2 (The Other: duality, division, debate)",
-      "Astrology" : "Venus in Cancer",
-      "Affirmation" : "\"I am attuned to what my heart truly desires.\"",
-	   "QuestionsToAsk" : ["How can I make sure that what I'm feeling is mutual?\",\"When was the last time I felt \"in love\" with someone or something?","What do you need in order to feel emotionally stable?"]
-    },
-    {
-      "name": "Three of Cups",
-      "number": "3",
-      "arcana": "Minor Arcana",
-      "suit": "Cups",
-      "img": "c03.jpg",
-	  "fortune_telling": [
+            "Numerology": "2 (The Other: duality, division, debate)",
+            "Astrology": "Venus in Cancer",
+            "Affirmation": "\"I am attuned to what my heart truly desires.\"",
+            "QuestionsToAsk": [
+                "How can I make sure that what I'm feeling is mutual?\",\"When was the last time I felt \"in love\" with someone or something?",
+                "What do you need in order to feel emotionally stable?"
+            ]
+        },
+        {
+            "name": "Three of Cups",
+            "number": "3",
+            "arcana": "Minor Arcana",
+            "suit": "Cups",
+            "img": "c03.jpg",
+            "fortune_telling": [
                 "Unconventional romance is coming your way: a love affair with someone you've always dismissed"
             ],
             "keywords": [
@@ -1028,18 +1124,22 @@
                     "Partying to a dangerous or unhealthy extent"
                 ]
             },
-		"Numerology" : "3 (The Result: expression, productivity, output)",
-      "Astrology" : "Mercury in Cancer",
-      "Affirmation" : "\"I allow my actions to reflect my true emotions.\"",
-	  "QuestionsToAsk" : ["What's worth celebrating in my life?","How can I demonstrate my feelings in appropriate ways?","What can I do to show my partner how I really feel?"]
-    },
-    {
-      "name": "Four of Cups",
-      "number": "4",
-      "arcana": "Minor Arcana",
-      "suit": "Cups",
-      "img": "c04.jpg",
-	  "fortune_telling": [
+            "Numerology": "3 (The Result: expression, productivity, output)",
+            "Astrology": "Mercury in Cancer",
+            "Affirmation": "\"I allow my actions to reflect my true emotions.\"",
+            "QuestionsToAsk": [
+                "What's worth celebrating in my life?",
+                "How can I demonstrate my feelings in appropriate ways?",
+                "What can I do to show my partner how I really feel?"
+            ]
+        },
+        {
+            "name": "Four of Cups",
+            "number": "4",
+            "arcana": "Minor Arcana",
+            "suit": "Cups",
+            "img": "c04.jpg",
+            "fortune_telling": [
                 "A lover is getting restless",
                 "Find out what he or she needs, or new opportunities may lure your partner away"
             ],
@@ -1067,18 +1167,22 @@
                     "Feeling everything should stay \"just like it is\""
                 ]
             },
-		 "Numerology" : "4 (The Status Quo: stability, equality, persistence)",
-      "Astrology" : "Moon in Cancer",
-      "Affirmation" : "\"I appreciate what I've been given.\"",
-	  "QuestionsToAsk" : ["How can I use this \"downtime\" to my best advantage?","How can I show my partner that I don't take him or her for granted?","To what extent is my mood blinding me to new opportunities?"]
-    },
-    {
-      "name": "Five of Cups",
-      "number": "5",
-      "arcana": "Minor Arcana",
-      "suit": "Cups",
-      "img": "c05.jpg",
-	  "fortune_telling": [
+            "Numerology": "4 (The Status Quo: stability, equality, persistence)",
+            "Astrology": "Moon in Cancer",
+            "Affirmation": "\"I appreciate what I've been given.\"",
+            "QuestionsToAsk": [
+                "How can I use this \"downtime\" to my best advantage?",
+                "How can I show my partner that I don't take him or her for granted?",
+                "To what extent is my mood blinding me to new opportunities?"
+            ]
+        },
+        {
+            "name": "Five of Cups",
+            "number": "5",
+            "arcana": "Minor Arcana",
+            "suit": "Cups",
+            "img": "c05.jpg",
+            "fortune_telling": [
                 "A breakup looms",
                 "Don't cry over spilt milk",
                 "Take your lumps and get back in the saddle"
@@ -1110,18 +1214,22 @@
                     "Allowing fear of failure to limit your efforts"
                 ]
             },
-		"Numerology" : "5 (The Catalyst: instability, resistance, confrontation)",
-      "Astrology" : "Mars in Scorpio",
-      "Affirmation" : "\"I learn from my losses and move on.\"",
-	  "QuestionsToAsk" : ["How do I tend to deal with loss?","What life lesson might I be learning now?","How can I shift my attention from the past to the future?"]
-    },
-    {
-      "name": "Six of Cups",
-      "number": "6",
-      "arcana": "Minor Arcana",
-      "suit": "Cups",
-      "img": "c06.jpg",
-	  "fortune_telling": [
+            "Numerology": "5 (The Catalyst: instability, resistance, confrontation)",
+            "Astrology": "Mars in Scorpio",
+            "Affirmation": "\"I learn from my losses and move on.\"",
+            "QuestionsToAsk": [
+                "How do I tend to deal with loss?",
+                "What life lesson might I be learning now?",
+                "How can I shift my attention from the past to the future?"
+            ]
+        },
+        {
+            "name": "Six of Cups",
+            "number": "6",
+            "arcana": "Minor Arcana",
+            "suit": "Cups",
+            "img": "c06.jpg",
+            "fortune_telling": [
                 "A stingy spirit is strangling your enjoyment of life",
                 "Loosen up and think of others for once, why don't you?"
             ],
@@ -1149,18 +1257,22 @@
                     "Refusing to share a burden"
                 ]
             },
-		"Numerology" : "6 (The Adjustment: cooperation, collaboration, interaction)",
-      "Astrology" : "Sun in Scorpio",
-      "Affirmation" : "\"I freely give myself to others, expecting nothing in return.\"",
-	   "QuestionsToAsk" : ["What gifts do I possess? How freely do I give them?","How can I practice unconditional giving?","How would things change if I became a more charitable person?"]
-    },
-    {
-      "name": "Seven of Cups",
-      "number": "7",
-      "arcana": "Minor Arcana",
-      "suit": "Cups",
-      "img": "c07.jpg",
-	  "fortune_telling": [
+            "Numerology": "6 (The Adjustment: cooperation, collaboration, interaction)",
+            "Astrology": "Sun in Scorpio",
+            "Affirmation": "\"I freely give myself to others, expecting nothing in return.\"",
+            "QuestionsToAsk": [
+                "What gifts do I possess? How freely do I give them?",
+                "How can I practice unconditional giving?",
+                "How would things change if I became a more charitable person?"
+            ]
+        },
+        {
+            "name": "Seven of Cups",
+            "number": "7",
+            "arcana": "Minor Arcana",
+            "suit": "Cups",
+            "img": "c07.jpg",
+            "fortune_telling": [
                 "You're being fed a line",
                 "Rather than be dazzled by fancy words and promises, demand something real"
             ],
@@ -1186,18 +1298,22 @@
                     "Being controlled by fear"
                 ]
             },
-		"Numerology" : "7 (The Motive: imagination, inner work, psychology)",
-      "Astrology" : "Venus in Scorpio",
-      "Affirmation" : "\"I use inner vision as a tool for growth.\"",
-	  "QuestionsToAsk" : ["What do you want most? What do you fear most? How are these related?","How is your imagination working for you? Against you?","How might a clearer personal vision help you choose a single cup from the many available?"]
-    },
-    {
-      "name": "Eight of Cups",
-      "number": "8",
-      "arcana": "Minor Arcana",
-      "suit": "Cups",
-      "img": "c08.jpg",
-	  "fortune_telling": [
+            "Numerology": "7 (The Motive: imagination, inner work, psychology)",
+            "Astrology": "Venus in Scorpio",
+            "Affirmation": "\"I use inner vision as a tool for growth.\"",
+            "QuestionsToAsk": [
+                "What do you want most? What do you fear most? How are these related?",
+                "How is your imagination working for you? Against you?",
+                "How might a clearer personal vision help you choose a single cup from the many available?"
+            ]
+        },
+        {
+            "name": "Eight of Cups",
+            "number": "8",
+            "arcana": "Minor Arcana",
+            "suit": "Cups",
+            "img": "c08.jpg",
+            "fortune_telling": [
                 "Someone's \"stepping out\" on you, now or in the near future",
                 "Maybe it's time to quit talking about the problem and just move on"
             ],
@@ -1229,18 +1345,22 @@
                     "Threatening to quit as a strategy to get your way"
                 ]
             },
-		"Numerology" : "8 (The Action: movement, outer work, swiftness)",
-      "Astrology" : "Saturn in Pisces",
-      "Affirmation" : "\"I am always open to opportunities for growth.\"",
-	  "QuestionsToAsk" : ["What do I need to leave behind once and for all?","If I left in search of \"more,\" what would I be looking for, exactly?","How might a retreat enhance my perspective?"]
-    },
-    {
-      "name": "Nine of Cups",
-      "number": "9",
-      "arcana": "Minor Arcana",
-      "suit": "Cups",
-      "img": "c09.jpg",
-	  "fortune_telling": [
+            "Numerology": "8 (The Action: movement, outer work, swiftness)",
+            "Astrology": "Saturn in Pisces",
+            "Affirmation": "\"I am always open to opportunities for growth.\"",
+            "QuestionsToAsk": [
+                "What do I need to leave behind once and for all?",
+                "If I left in search of \"more,\" what would I be looking for, exactly?",
+                "How might a retreat enhance my perspective?"
+            ]
+        },
+        {
+            "name": "Nine of Cups",
+            "number": "9",
+            "arcana": "Minor Arcana",
+            "suit": "Cups",
+            "img": "c09.jpg",
+            "fortune_telling": [
                 "Whatever you want, you'll get it"
             ],
             "keywords": [
@@ -1268,18 +1388,22 @@
                     "Never being satisfied, no matter how much you have"
                 ]
             },
-		"Numerology" : "9 (The Completion: fullness, readiness, ripeness)",
-      "Astrology" : "Jupiter in Pisces",
-      "Affirmation" : "\"I have everything I need to be happy.\"",
-	   "QuestionsToAsk" : ["What is true happiness?","If I could have anything, what would I have?","What is my attitude toward luxury? Do I deserve it?"]
-    },
-    {
-      "name": "Ten of Cups",
-      "number": "10",
-      "arcana": "Minor Arcana",
-      "suit": "Cups",
-      "img": "c10.jpg",
-	  "fortune_telling": [
+            "Numerology": "9 (The Completion: fullness, readiness, ripeness)",
+            "Astrology": "Jupiter in Pisces",
+            "Affirmation": "\"I have everything I need to be happy.\"",
+            "QuestionsToAsk": [
+                "What is true happiness?",
+                "If I could have anything, what would I have?",
+                "What is my attitude toward luxury? Do I deserve it?"
+            ]
+        },
+        {
+            "name": "Ten of Cups",
+            "number": "10",
+            "arcana": "Minor Arcana",
+            "suit": "Cups",
+            "img": "c10.jpg",
+            "fortune_telling": [
                 "Marriage and family are in the cards",
                 "Expect a friendship to blossom into a romance"
             ],
@@ -1304,18 +1428,22 @@
                     "Envying the achievements and happiness of others"
                 ]
             },
-		"Numerology" : "10 (The End: finality, completion, exhaustion)",
-      "Astrology" : "Mars in Pisces",
-      "Affirmation" : "\"I take time to appreciate what I've been given.\"",
-	  "QuestionsToAsk" : ["Who gets to define what \"joy\" consists of?","What course of action is available when you feel overwhelmed?","How might vows or promises play a role in achieving a greater level of joy in your life?"]
-    },
-    {
-      "name": "Page of Cups",
-      "number": "11",
-      "arcana": "Minor Arcana",
-      "suit": "Cups",
-      "img": "c11.jpg",
-	  "fortune_telling": [
+            "Numerology": "10 (The End: finality, completion, exhaustion)",
+            "Astrology": "Mars in Pisces",
+            "Affirmation": "\"I take time to appreciate what I've been given.\"",
+            "QuestionsToAsk": [
+                "Who gets to define what \"joy\" consists of?",
+                "What course of action is available when you feel overwhelmed?",
+                "How might vows or promises play a role in achieving a greater level of joy in your life?"
+            ]
+        },
+        {
+            "name": "Page of Cups",
+            "number": "11",
+            "arcana": "Minor Arcana",
+            "suit": "Cups",
+            "img": "c11.jpg",
+            "fortune_telling": [
                 "This card represents a young man or woman with a watery, dreamy demeanor, likely born a Libra, Scorpio, or Sagittarius, who wants to start a new relationship with you"
             ],
             "keywords": [
@@ -1343,17 +1471,21 @@
                     "Pretending to more romantic or spiritual experience than you possess"
                 ]
             },
-		 "Elemental" : "Earth of Water.",
-      "Affirmation" : "\"I am ready to embrace love and Spirit.\"",
-	  "QuestionsToAsk" : ["How worried are you that others will see you as foolish or inexperienced?","To what extent can you be honest about your lack of experience in love and faith?","How can you maintain enthusiasm over time?"]
-    },
-    {
-      "name": "Knight of Cups",
-      "number": "12",
-      "arcana": "Minor Arcana",
-      "suit": "Cups",
-      "img": "c12.jpg",
-	  "fortune_telling": [
+            "Elemental": "Earth of Water.",
+            "Affirmation": "\"I am ready to embrace love and Spirit.\"",
+            "QuestionsToAsk": [
+                "How worried are you that others will see you as foolish or inexperienced?",
+                "To what extent can you be honest about your lack of experience in love and faith?",
+                "How can you maintain enthusiasm over time?"
+            ]
+        },
+        {
+            "name": "Knight of Cups",
+            "number": "12",
+            "arcana": "Minor Arcana",
+            "suit": "Cups",
+            "img": "c12.jpg",
+            "fortune_telling": [
                 "This card represents a man with an emotional, sensitive personality, likely born between October 13th and November 11th, who wants you to rally around his latest passionate cause"
             ],
             "keywords": [
@@ -1379,17 +1511,21 @@
                     "Hiding or ignoring intuitive insights"
                 ]
             },
-		"Elemental" : "Air of Water.",
-      "Affirmation" : "\"I translate my passions into actions.\"",
-	   "QuestionsToAsk" : ["How prone to emotional extremes are you?","What's the difference in driving passion and blind zeal?","How can you inspire others without inciting a riot?"]
-    },
-    {
-      "name": "Queen of Cups",
-      "number": "13",
-      "arcana": "Minor Arcana",
-      "suit": "Cups",
-      "img": "c13.jpg",
-	  "fortune_telling": [
+            "Elemental": "Air of Water.",
+            "Affirmation": "\"I translate my passions into actions.\"",
+            "QuestionsToAsk": [
+                "How prone to emotional extremes are you?",
+                "What's the difference in driving passion and blind zeal?",
+                "How can you inspire others without inciting a riot?"
+            ]
+        },
+        {
+            "name": "Queen of Cups",
+            "number": "13",
+            "arcana": "Minor Arcana",
+            "suit": "Cups",
+            "img": "c13.jpg",
+            "fortune_telling": [
                 "This card represents a woman with an emotional, deeply spiritual nature, likely born between June 11th and July 11th, who uses emotional and spiritual appeals to sway others to her point of view"
             ],
             "keywords": [
@@ -1415,17 +1551,21 @@
                     "Wallowing in emotionalism, sentiment, or self-pity"
                 ]
             },
-		"Elemental" : "Water of Water.",
-      "Affirmation" : "\"I choose to be enabled, not disabled, by my strong emotions.\"",
-	  "QuestionsToAsk" : ["How do I handle strong emotions?","To what extent am I a victim of my own feelings?","How can I move from reflection to action?"]
-    },
-    {
-      "name": "King of Cups",
-      "number": "14",
-      "arcana": "Minor Arcana",
-      "suit": "Cups",
-      "img": "c14.jpg",
-	  "fortune_telling": [
+            "Elemental": "Water of Water.",
+            "Affirmation": "\"I choose to be enabled, not disabled, by my strong emotions.\"",
+            "QuestionsToAsk": [
+                "How do I handle strong emotions?",
+                "To what extent am I a victim of my own feelings?",
+                "How can I move from reflection to action?"
+            ]
+        },
+        {
+            "name": "King of Cups",
+            "number": "14",
+            "arcana": "Minor Arcana",
+            "suit": "Cups",
+            "img": "c14.jpg",
+            "fortune_telling": [
                 "This card represents an older man with a gentle, sensitive presence, likely born between February 9th and March 10th, who is known for his fairness and tolerance"
             ],
             "keywords": [
@@ -1450,17 +1590,21 @@
                     "Using emotional or spiritual leverage to exercise unhealthy control over others"
                 ]
             },
-		"Elemental" : "Fire of Water.",
-      "Affirmation" : "\"I strive to be stable and fair-minded.\"",
-	  "QuestionsToAsk" : ["What wise person could be consulted for good advice?","How can I make sure I'm being as objective and fair as possible?","To what extent am I capable of keeping a \"stiff upper lip?\""]
-    },
-    {
-      "name": "Ace of Swords",
-      "number": "1",
-      "arcana": "Minor Arcana",
-      "suit": "Swords",
-      "img": "s01.jpg",
-	  "fortune_telling": [
+            "Elemental": "Fire of Water.",
+            "Affirmation": "\"I strive to be stable and fair-minded.\"",
+            "QuestionsToAsk": [
+                "What wise person could be consulted for good advice?",
+                "How can I make sure I'm being as objective and fair as possible?",
+                "To what extent am I capable of keeping a \"stiff upper lip?\""
+            ]
+        },
+        {
+            "name": "Ace of Swords",
+            "number": "1",
+            "arcana": "Minor Arcana",
+            "suit": "Swords",
+            "img": "s01.jpg",
+            "fortune_telling": [
                 "The time to make a choice is now",
                 "Stop wavering and do what you know is best"
             ],
@@ -1489,18 +1633,22 @@
                     "Making decisions without thinking through consequences"
                 ]
             },
-		"Numerology" : "1 (The Origin: the starting point, the seed, opportunity)",
-      "Astrology" : "Libra, Aquarius, Gemini",
-      "Affirmation" : "\"I take the time to think things through.\"",
-	  "QuestionsToAsk" : ["If I made my decision purely based on reason and logic, what would my decision be?","What do I think about my own problem-solving ability?","Who can supply me with the pure and simple facts?"]
-    },
-    {
-      "name": "Two of Swords",
-      "number": "2",
-      "arcana": "Minor Arcana",
-      "suit": "Swords",
-      "img": "s02.jpg",
-	  "fortune_telling": [
+            "Numerology": "1 (The Origin: the starting point, the seed, opportunity)",
+            "Astrology": "Libra, Aquarius, Gemini",
+            "Affirmation": "\"I take the time to think things through.\"",
+            "QuestionsToAsk": [
+                "If I made my decision purely based on reason and logic, what would my decision be?",
+                "What do I think about my own problem-solving ability?",
+                "Who can supply me with the pure and simple facts?"
+            ]
+        },
+        {
+            "name": "Two of Swords",
+            "number": "2",
+            "arcana": "Minor Arcana",
+            "suit": "Swords",
+            "img": "s02.jpg",
+            "fortune_telling": [
                 "Sometimes, the only way to win is to refuse to fight",
                 "You're stuck for now; let time pass before taking action"
             ],
@@ -1527,18 +1675,22 @@
                     "Preventing others from getting the information they need to make good decisions"
                 ]
             },
-		"Numerology" : "2 (The Other: duality, division, debate)",
-      "Astrology" : "Moon in Libra",
-      "Affirmation" : "\"I strive to see all sides of every issue.\"",
-	  "QuestionsToAsk" : ["What information do I need to get past this impasse?","How can I get past being defensive and see the facts?","What viewpoints, other than my own, play a role in this situation?"]
-    },
-    {
-      "name": "Three of Swords",
-      "number": "3",
-      "arcana": "Minor Arcana",
-      "suit": "Swords",
-      "img": "s03.jpg",
-	  "fortune_telling": [
+            "Numerology": "2 (The Other: duality, division, debate)",
+            "Astrology": "Moon in Libra",
+            "Affirmation": "\"I strive to see all sides of every issue.\"",
+            "QuestionsToAsk": [
+                "What information do I need to get past this impasse?",
+                "How can I get past being defensive and see the facts?",
+                "What viewpoints, other than my own, play a role in this situation?"
+            ]
+        },
+        {
+            "name": "Three of Swords",
+            "number": "3",
+            "arcana": "Minor Arcana",
+            "suit": "Swords",
+            "img": "s03.jpg",
+            "fortune_telling": [
                 "Breakups and infidelity abound",
                 "What hurts now, though, will turn out to be good for you later on"
             ],
@@ -1565,18 +1717,22 @@
                     "Wearing your heart on your sleeve while carrying a chip on your shoulder"
                 ]
             },
-		 "Numerology" : "3 (The Result: expression, productivity, output)",
-      "Astrology" : "Saturn in Libra",
-      "Affirmation" : "\"I learn from failures and setbacks.\"",
-	   "QuestionsToAsk" : ["How can I get past my depression?","To what extent are my emotions a matter of choice?","How can I learn from the mistakes of the past?"]
-    },
-    {
-      "name": "Four of Swords",
-      "number": "4",
-      "arcana": "Minor Arcana",
-      "suit": "Swords",
-      "img": "s04.jpg",
-	  "fortune_telling": [
+            "Numerology": "3 (The Result: expression, productivity, output)",
+            "Astrology": "Saturn in Libra",
+            "Affirmation": "\"I learn from failures and setbacks.\"",
+            "QuestionsToAsk": [
+                "How can I get past my depression?",
+                "To what extent are my emotions a matter of choice?",
+                "How can I learn from the mistakes of the past?"
+            ]
+        },
+        {
+            "name": "Four of Swords",
+            "number": "4",
+            "arcana": "Minor Arcana",
+            "suit": "Swords",
+            "img": "s04.jpg",
+            "fortune_telling": [
                 "Don't make any decision now",
                 "Wait, and you'll be glad you did"
             ],
@@ -1601,18 +1757,22 @@
                     "Allowing chaos and whimsy to dominate your thoughts"
                 ]
             },
-		"Numerology" : "4 (The Status Quo: stability, equality, persistence)",
-      "Astrology" : "Jupiter in Libra",
-      "Affirmation" : "\"I think before taking action.\"",
-	  "QuestionsToAsk" : ["How long has it been since you deliberately took a \"time out?\"","How difficult is it for you to meditate?","What would happen if you simply refused to make a decision today?"]
-    },
-    {
-      "name": "Five of Swords",
-      "number": "5",
-      "arcana": "Minor Arcana",
-      "suit": "Swords",
-      "img": "s05.jpg",
-	  "fortune_telling": [
+            "Numerology": "4 (The Status Quo: stability, equality, persistence)",
+            "Astrology": "Jupiter in Libra",
+            "Affirmation": "\"I think before taking action.\"",
+            "QuestionsToAsk": [
+                "How long has it been since you deliberately took a \"time out?\"",
+                "How difficult is it for you to meditate?",
+                "What would happen if you simply refused to make a decision today?"
+            ]
+        },
+        {
+            "name": "Five of Swords",
+            "number": "5",
+            "arcana": "Minor Arcana",
+            "suit": "Swords",
+            "img": "s05.jpg",
+            "fortune_telling": [
                 "Someone is stealing from you, financially or romantically",
                 "Be wary of friends who talk behind your back"
             ],
@@ -1642,18 +1802,22 @@
                     "Gloating over victory"
                 ]
             },
-		"Numerology" : "5 (The Catalyst: instability, resistance, confrontation)",
-      "Astrology" : "Venus in Aquarius",
-      "Affirmation" : "\"Even as I care for myself, I am mindful of the needs of others.\"",
-	  "QuestionsToAsk" : ["How do I behave when I win? What does that say about me?","How can I do what's necessary without making others feel defeated?","What's the difference between selfish action and acting in my own best interest?"]
-    },
-    {
-      "name": "Six of Swords",
-      "number": "6",
-      "arcana": "Minor Arcana",
-      "suit": "Swords",
-      "img": "s06.jpg",
-	  "fortune_telling": [
+            "Numerology": "5 (The Catalyst: instability, resistance, confrontation)",
+            "Astrology": "Venus in Aquarius",
+            "Affirmation": "\"Even as I care for myself, I am mindful of the needs of others.\"",
+            "QuestionsToAsk": [
+                "How do I behave when I win? What does that say about me?",
+                "How can I do what's necessary without making others feel defeated?",
+                "What's the difference between selfish action and acting in my own best interest?"
+            ]
+        },
+        {
+            "name": "Six of Swords",
+            "number": "6",
+            "arcana": "Minor Arcana",
+            "suit": "Swords",
+            "img": "s06.jpg",
+            "fortune_telling": [
                 "You'll soon go on a long journey over water",
                 "Actions have unexpected consequences, so be prepared"
             ],
@@ -1681,18 +1845,22 @@
                     "Believing the whole world should be like your small corner of it"
                 ]
             },
-		"Numerology" : "6 (The Adjustment: cooperation, collaboration, interaction)",
-      "Astrology" : "Mercury in Aquarius",
-      "Affirmation" : "\"I keep an open mind.\"",
-	   "QuestionsToAsk" : ["What assumptions govern my thinking?","How willing am I to lend aid to others? To request it when I need it?","How prepared am I to deal with change? With unexpected outcomes?"]
-    },
-    {
-      "name": "Seven of Swords",
-      "number": "7",
-      "arcana": "Minor Arcana",
-      "suit": "Swords",
-      "img": "s07.jpg",
-	  "fortune_telling": [
+            "Numerology": "6 (The Adjustment: cooperation, collaboration, interaction)",
+            "Astrology": "Mercury in Aquarius",
+            "Affirmation": "\"I keep an open mind.\"",
+            "QuestionsToAsk": [
+                "What assumptions govern my thinking?",
+                "How willing am I to lend aid to others? To request it when I need it?",
+                "How prepared am I to deal with change? With unexpected outcomes?"
+            ]
+        },
+        {
+            "name": "Seven of Swords",
+            "number": "7",
+            "arcana": "Minor Arcana",
+            "suit": "Swords",
+            "img": "s07.jpg",
+            "fortune_telling": [
                 "Don't assume people around you are worthy of your trust",
                 "Ask for an accounting of where people have been, and what they've been doing"
             ],
@@ -1718,18 +1886,22 @@
                     "Failing to examine your own motives and prejudices"
                 ]
             },
-		"Numerology" : "7 (The Motive: imagination, inner work, psychology)",
-      "Astrology" : "Moon in Aquarius",
-      "Affirmation" : "\"I hold myself to the highest ethical standards.\"",
-	  "QuestionsToAsk" : ["What assumptions am I making?","How well-defined is my sense of ethics?","How should I respond when I know others are breaking the rules?"]
-    },
-    {
-      "name": "Eight of Swords",
-      "number": "8",
-      "arcana": "Minor Arcana",
-      "suit": "Swords",
-      "img": "s08.jpg",
-	  "fortune_telling": [
+            "Numerology": "7 (The Motive: imagination, inner work, psychology)",
+            "Astrology": "Moon in Aquarius",
+            "Affirmation": "\"I hold myself to the highest ethical standards.\"",
+            "QuestionsToAsk": [
+                "What assumptions am I making?",
+                "How well-defined is my sense of ethics?",
+                "How should I respond when I know others are breaking the rules?"
+            ]
+        },
+        {
+            "name": "Eight of Swords",
+            "number": "8",
+            "arcana": "Minor Arcana",
+            "suit": "Swords",
+            "img": "s08.jpg",
+            "fortune_telling": [
                 "Get over playing the victim",
                 "Once you realize you are your own biggest obstacle, nothing can hold you back"
             ],
@@ -1760,18 +1932,22 @@
                     "Failing to look for a way out"
                 ]
             },
-		 "Numerology" : "8 (The Action: movement, outer work, swiftness)",
-      "Astrology" : "Jupiter in Gemini",
-      "Affirmation" : "\"I know my own limits.\"",
-	  "QuestionsToAsk" : ["Who's empowered to cut through the red tape?","What, exactly, are the obstacles? What resources, exactly, are needed to move them?","To what extent is your powerlessness a matter of attitude?"]
-    },
-    {
-      "name": "Nine of Swords",
-      "number": "9",
-      "arcana": "Minor Arcana",
-      "suit": "Swords",
-      "img": "s09.jpg",
-	  "fortune_telling": [
+            "Numerology": "8 (The Action: movement, outer work, swiftness)",
+            "Astrology": "Jupiter in Gemini",
+            "Affirmation": "\"I know my own limits.\"",
+            "QuestionsToAsk": [
+                "Who's empowered to cut through the red tape?",
+                "What, exactly, are the obstacles? What resources, exactly, are needed to move them?",
+                "To what extent is your powerlessness a matter of attitude?"
+            ]
+        },
+        {
+            "name": "Nine of Swords",
+            "number": "9",
+            "arcana": "Minor Arcana",
+            "suit": "Swords",
+            "img": "s09.jpg",
+            "fortune_telling": [
                 "If you take the action you're considering now, you'll be sorry in the future"
             ],
             "keywords": [
@@ -1800,18 +1976,22 @@
                     "Debating irreversible decisions"
                 ]
             },
-		"Numerology" : "9 (The Completion: fullness, readiness, ripeness)",
-      "Astrology" : "Mars in Gemini",
-      "Affirmation" : "\"I do not worry about what I cannot control.\"",
-	   "QuestionsToAsk" : ["What role does worry play in your current situation?","To what other ends might you devote the energy you're giving to anxiety?","How can you know when it's time to stop thinking and start acting?"]
-    },
-    {
-      "name": "Ten of Swords",
-      "number": "10",
-      "arcana": "Minor Arcana",
-      "suit": "Swords",
-      "img": "s10.jpg",
-	  "fortune_telling": [
+            "Numerology": "9 (The Completion: fullness, readiness, ripeness)",
+            "Astrology": "Mars in Gemini",
+            "Affirmation": "\"I do not worry about what I cannot control.\"",
+            "QuestionsToAsk": [
+                "What role does worry play in your current situation?",
+                "To what other ends might you devote the energy you're giving to anxiety?",
+                "How can you know when it's time to stop thinking and start acting?"
+            ]
+        },
+        {
+            "name": "Ten of Swords",
+            "number": "10",
+            "arcana": "Minor Arcana",
+            "suit": "Swords",
+            "img": "s10.jpg",
+            "fortune_telling": [
                 "Disaster",
                 "Put off plans and do not take action until omens are better"
             ],
@@ -1841,18 +2021,22 @@
                     "Deeply unhealthy thoughts"
                 ]
             },
-		"Numerology" : "10 (The End: finality, completion, exhaustion)",
-      "Astrology" : "Sun in Gemini",
-      "Affirmation" : "\"When my limits are exceeded, I take action on my own behalf.\"",
-	  "QuestionsToAsk" : ["What are the signs that the time for debate is over?","How can you tell when interest has given way to obsession?","When your own limits are reached, where can you turn for aid?"]
-    },
-    {
-      "name": "Page of Swords",
-      "number": "11",
-      "arcana": "Minor Arcana",
-      "suit": "Swords",
-      "img": "s11.jpg",
-	  "fortune_telling": [
+            "Numerology": "10 (The End: finality, completion, exhaustion)",
+            "Astrology": "Sun in Gemini",
+            "Affirmation": "\"When my limits are exceeded, I take action on my own behalf.\"",
+            "QuestionsToAsk": [
+                "What are the signs that the time for debate is over?",
+                "How can you tell when interest has given way to obsession?",
+                "When your own limits are reached, where can you turn for aid?"
+            ]
+        },
+        {
+            "name": "Page of Swords",
+            "number": "11",
+            "arcana": "Minor Arcana",
+            "suit": "Swords",
+            "img": "s11.jpg",
+            "fortune_telling": [
                 "This card represents a young man or woman with an airy, intellectual demeanor, likely born a Capricorn, Aquarius, or Pisces, who wants to learn something new from you or have a discussion with you"
             ],
             "keywords": [
@@ -1880,17 +2064,21 @@
                     "Rejecting the wise counsel of experienced teachers"
                 ]
             },
-		"Elemental" : "Earth of Air.",
-      "Affirmation" : "\"I am ready to make good decisions.\"",
-	   "QuestionsToAsk" : ["How comfortable are you with revealing your own ignorance?","What are the marks of a good student?","To what extent are you open to new information?"]
-    },
-    {
-      "name": "Knight of Swords",
-      "number": "12",
-      "arcana": "Minor Arcana",
-      "suit": "Swords",
-      "img": "s12.jpg",
-	  "fortune_telling": [
+            "Elemental": "Earth of Air.",
+            "Affirmation": "\"I am ready to make good decisions.\"",
+            "QuestionsToAsk": [
+                "How comfortable are you with revealing your own ignorance?",
+                "What are the marks of a good student?",
+                "To what extent are you open to new information?"
+            ]
+        },
+        {
+            "name": "Knight of Swords",
+            "number": "12",
+            "arcana": "Minor Arcana",
+            "suit": "Swords",
+            "img": "s12.jpg",
+            "fortune_telling": [
                 "A blunder leads someone to say something he or she regrets",
                 "If this was you, be prepared to apologize and move on"
             ],
@@ -1923,17 +2111,21 @@
                     "Distorting evidence"
                 ]
             },
-		"Elemental" : "Air of Air.",
-      "Affirmation" : "\"I temper my insights with tact.\"",
-	  "QuestionsToAsk" : ["What do I really need to know?","To what extent have I investigated the facts behind my situation?","How can I share what I know without alienating others?"]
-    },
-    {
-      "name": "Queen of Swords",
-      "number": "13",
-      "arcana": "Minor Arcana",
-      "suit": "Swords",
-      "img": "s13.jpg",
-	  "fortune_telling": [
+            "Elemental": "Air of Air.",
+            "Affirmation": "\"I temper my insights with tact.\"",
+            "QuestionsToAsk": [
+                "What do I really need to know?",
+                "To what extent have I investigated the facts behind my situation?",
+                "How can I share what I know without alienating others?"
+            ]
+        },
+        {
+            "name": "Queen of Swords",
+            "number": "13",
+            "arcana": "Minor Arcana",
+            "suit": "Swords",
+            "img": "s13.jpg",
+            "fortune_telling": [
                 "This card represents a woman with an artistic, intellectual nature, likely born between September 12th and October 12th, who uses clever, positive communication to sway others to her point of view"
             ],
             "keywords": [
@@ -1965,17 +2157,21 @@
                     "Failing to use the talent you've been given"
                 ]
             },
-		"Elemental" : "Water of Air.",
-      "Affirmation" : "\"I make the truth easier to hear.\"",
-	  "QuestionsToAsk" : ["What do I have a knack for? How might my special gift prove useful now?","To what extent am I capable of saying what needs to be said?","What is the best possible way to say what I want to say?"]
-    },
-    {
-      "name": "King of Swords",
-      "number": "14",
-      "arcana": "Minor Arcana",
-      "suit": "Swords",
-      "img": "s14.jpg",
-	  "fortune_telling": [
+            "Elemental": "Water of Air.",
+            "Affirmation": "\"I make the truth easier to hear.\"",
+            "QuestionsToAsk": [
+                "What do I have a knack for? How might my special gift prove useful now?",
+                "To what extent am I capable of saying what needs to be said?",
+                "What is the best possible way to say what I want to say?"
+            ]
+        },
+        {
+            "name": "King of Swords",
+            "number": "14",
+            "arcana": "Minor Arcana",
+            "suit": "Swords",
+            "img": "s14.jpg",
+            "fortune_telling": [
                 "This card represents an older man with an insightful, deliberate spirit, likely born between May 11th and June 10th, who is known for his integrity and sharp decision-making ability"
             ],
             "keywords": [
@@ -2003,17 +2199,21 @@
                     "Wishing in vain you could take back what's been said"
                 ]
             },
-		"Elemental" : "Fire of Air.",
-      "Affirmation" : "\"My word is my bond.\"",
-	  "QuestionsToAsk" : ["What would your decision be if you had to render a binding verdict right now?","How comfortable are you saying exactly what you mean? How often do you temper what you have to say for fear of offending others?","If you were to ask others, \"What's my area of expertise?\" what would they say?"]
-    },
-    {
-      "name": "Ace of Wands",
-      "number": "1",
-      "arcana": "Minor Arcana",
-      "suit": "Wands",
-      "img": "w01.jpg",
-	  "fortune_telling": [
+            "Elemental": "Fire of Air.",
+            "Affirmation": "\"My word is my bond.\"",
+            "QuestionsToAsk": [
+                "What would your decision be if you had to render a binding verdict right now?",
+                "How comfortable are you saying exactly what you mean? How often do you temper what you have to say for fear of offending others?",
+                "If you were to ask others, \"What's my area of expertise?\" what would they say?"
+            ]
+        },
+        {
+            "name": "Ace of Wands",
+            "number": "1",
+            "arcana": "Minor Arcana",
+            "suit": "Wands",
+            "img": "w01.jpg",
+            "fortune_telling": [
                 "Someone has the \"hots\" for you",
                 "A new job offer is coming your way",
                 "Walk softly, and carry a big stick"
@@ -2044,18 +2244,22 @@
                     "Failing to take a stand"
                 ]
             },
-		"Numerology" : "1 (The Origin: the starting point, the seed, opportunity)",
-      "Astrology" : "Aries, Leo, Sagittarius",
-	  "Affirmation" : "\"I jump at the opportunity to pursue my heart's desire.\"",
-	  "QuestionsToAsk" : ["What do I really want, more than anything else?","What happens if I let this opportunity pass me by?","How clearly have I defined my directions, values, and goals?"]
-    },
-    {
-      "name": "Two of Wands",
-      "number": "2",
-      "arcana": "Minor Arcana",
-      "suit": "Wands",
-      "img": "w02.jpg",
-	  "fortune_telling": [
+            "Numerology": "1 (The Origin: the starting point, the seed, opportunity)",
+            "Astrology": "Aries, Leo, Sagittarius",
+            "Affirmation": "\"I jump at the opportunity to pursue my heart's desire.\"",
+            "QuestionsToAsk": [
+                "What do I really want, more than anything else?",
+                "What happens if I let this opportunity pass me by?",
+                "How clearly have I defined my directions, values, and goals?"
+            ]
+        },
+        {
+            "name": "Two of Wands",
+            "number": "2",
+            "arcana": "Minor Arcana",
+            "suit": "Wands",
+            "img": "w02.jpg",
+            "fortune_telling": [
                 "Beware false friends",
                 "Don't be mealy-mouthed; say what you think and do what you want to do"
             ],
@@ -2082,18 +2286,22 @@
                     "Disregarding the input of others"
                 ]
             },
-	"Numerology" : "2 (The Other: division, debate, duality)",
-      "Astrology" : "Mars in Aries",
-	  "Affirmation" : "\"With my goals in mind, I make confident choices.\"",
-	  "QuestionsToAsk" : ["In a conflict, how do you decide who wins?","What values govern your decision-making process?","What choice will you make if you make no choice at all?"]
-    },
-    {
-      "name": "Three of Wands",
-      "number": "3",
-      "arcana": "Minor Arcana",
-      "suit": "Wands",
-      "img": "w03.jpg",
-	  "fortune_telling": [
+            "Numerology": "2 (The Other: division, debate, duality)",
+            "Astrology": "Mars in Aries",
+            "Affirmation": "\"With my goals in mind, I make confident choices.\"",
+            "QuestionsToAsk": [
+                "In a conflict, how do you decide who wins?",
+                "What values govern your decision-making process?",
+                "What choice will you make if you make no choice at all?"
+            ]
+        },
+        {
+            "name": "Three of Wands",
+            "number": "3",
+            "arcana": "Minor Arcana",
+            "suit": "Wands",
+            "img": "w03.jpg",
+            "fortune_telling": [
                 "You'll be planning a trip soon",
                 "Be on the lookout: your ship is coming in"
             ],
@@ -2120,18 +2328,22 @@
                     "Failing to finish what you start"
                 ]
             },
-		"Numerology" : "3 (The Result: expression, productivity, output)",
-      "Astrology" : "Sun in Aries",
-	  "Affirmation" : "\"I take the steps necessary to put my plans in action.\"",
-	  "QuestionsToAsk" : ["How can you make a habit of breaking your habits?","How can you be a decisive leader in this circumstance?","What's your action plan for the next week, month, year, or decade?"]
-    },
-    {
-      "name": "Four of Wands",
-      "number": "4",
-      "arcana": "Minor Arcana",
-      "suit": "Wands",
-      "img": "w04.jpg",
-	  "fortune_telling": [
+            "Numerology": "3 (The Result: expression, productivity, output)",
+            "Astrology": "Sun in Aries",
+            "Affirmation": "\"I take the steps necessary to put my plans in action.\"",
+            "QuestionsToAsk": [
+                "How can you make a habit of breaking your habits?",
+                "How can you be a decisive leader in this circumstance?",
+                "What's your action plan for the next week, month, year, or decade?"
+            ]
+        },
+        {
+            "name": "Four of Wands",
+            "number": "4",
+            "arcana": "Minor Arcana",
+            "suit": "Wands",
+            "img": "w04.jpg",
+            "fortune_telling": [
                 "Someone is watching and evaluating your work",
                 "You may get a wedding invitation soon"
             ],
@@ -2158,18 +2370,22 @@
                     "Refusing to do your part"
                 ]
             },
-		"Numerology" : "4 (The Status Quo: stability, equality, persistence)",
-      "Astrology" : "Venus in Aries",
-	  "Affirmation" : "\"My contributions are worthy of celebration.\"",
-	  "QuestionsToAsk" : ["To what extent am I doing my part?","What kind of recognition would be most meaningful?","How might a celebration now impact community morale?"]
-    },
-    {
-      "name": "Five of Wands",
-      "number": "5",
-      "arcana": "Minor Arcana",
-      "suit": "Wands",
-      "img": "w05.jpg",
-	  "fortune_telling": [
+            "Numerology": "4 (The Status Quo: stability, equality, persistence)",
+            "Astrology": "Venus in Aries",
+            "Affirmation": "\"My contributions are worthy of celebration.\"",
+            "QuestionsToAsk": [
+                "To what extent am I doing my part?",
+                "What kind of recognition would be most meaningful?",
+                "How might a celebration now impact community morale?"
+            ]
+        },
+        {
+            "name": "Five of Wands",
+            "number": "5",
+            "arcana": "Minor Arcana",
+            "suit": "Wands",
+            "img": "w05.jpg",
+            "fortune_telling": [
                 "Prepare for a fight with your best friend",
                 "Remember: once you let words loose, you can't take them back"
             ],
@@ -2195,18 +2411,22 @@
                     "Disrupting progress with an endless stream of pointless objections"
                 ]
             },
-		"Numerology" : "5 (The Catalyst: instability, resistance, confrontation)",
-      "Astrology" : "Saturn in Leo",
-	  "Affirmation" : "\"I can express dissent in constructive ways.\"",
-	  "QuestionsToAsk" : ["To what extent is your current issue worth fighting for?","What alternatives are there to outright conflict?","What happens in a \"fair fight?\" How can you keep this fight fair?"]
-    },
-    {
-      "name": "Six of Wands",
-      "number": "6",
-      "arcana": "Minor Arcana",
-      "suit": "Wands",
-      "img": "w06.jpg",
-	  "fortune_telling": [
+            "Numerology": "5 (The Catalyst: instability, resistance, confrontation)",
+            "Astrology": "Saturn in Leo",
+            "Affirmation": "\"I can express dissent in constructive ways.\"",
+            "QuestionsToAsk": [
+                "To what extent is your current issue worth fighting for?",
+                "What alternatives are there to outright conflict?",
+                "What happens in a \"fair fight?\" How can you keep this fight fair?"
+            ]
+        },
+        {
+            "name": "Six of Wands",
+            "number": "6",
+            "arcana": "Minor Arcana",
+            "suit": "Wands",
+            "img": "w06.jpg",
+            "fortune_telling": [
                 "Someone is planning a party for you, but not everyone feels so good about your recent success",
                 "Watch out for envious friends"
             ],
@@ -2236,18 +2456,22 @@
                     "Envying the achievements of others"
                 ]
             },
-		"Numerology" : "6 (The Adjustment: cooperation, collaboration, interaction)",
-      "Astrology" : "Jupiter in Leo",
-	  "Affirmation" : "\"I value sincere praise.\"",
-	   "QuestionsToAsk" : ["What kind of recognition do I crave? Why?","How freely do I praise the achievements of others?","What happens when the parade is over?"]
-    },
-    {
-      "name": "Seven of Wands",
-      "number": "7",
-      "arcana": "Minor Arcana",
-      "suit": "Wands",
-      "img": "w07.jpg",
-	  "fortune_telling": [
+            "Numerology": "6 (The Adjustment: cooperation, collaboration, interaction)",
+            "Astrology": "Jupiter in Leo",
+            "Affirmation": "\"I value sincere praise.\"",
+            "QuestionsToAsk": [
+                "What kind of recognition do I crave? Why?",
+                "How freely do I praise the achievements of others?",
+                "What happens when the parade is over?"
+            ]
+        },
+        {
+            "name": "Seven of Wands",
+            "number": "7",
+            "arcana": "Minor Arcana",
+            "suit": "Wands",
+            "img": "w07.jpg",
+            "fortune_telling": [
                 "Don't be surprised by a personal attack",
                 "Prepare to defend yourself or someone you love"
             ],
@@ -2273,18 +2497,22 @@
                     "Refusing to stand up for yourself and your beliefs"
                 ]
             },
-		"Numerology" : "7 (The Motive: imagination, inner work, psychology)",
-      "Astrology" : "Mars in Leo",
-	  "Affirmation" : "\"I am willing to take a stand for what I believe in.\"",
-	  "QuestionsToAsk" : ["When do you feel most threatened? When do you get defensive?","How capable are you of defending yourself?","What kinds of beliefs are worth defending?"]
-    },
-    {
-      "name": "Eight of Wands",
-      "number": "8",
-      "arcana": "Minor Arcana",
-      "suit": "Wands",
-      "img": "w08.jpg",
-	  "fortune_telling": [
+            "Numerology": "7 (The Motive: imagination, inner work, psychology)",
+            "Astrology": "Mars in Leo",
+            "Affirmation": "\"I am willing to take a stand for what I believe in.\"",
+            "QuestionsToAsk": [
+                "When do you feel most threatened? When do you get defensive?",
+                "How capable are you of defending yourself?",
+                "What kinds of beliefs are worth defending?"
+            ]
+        },
+        {
+            "name": "Eight of Wands",
+            "number": "8",
+            "arcana": "Minor Arcana",
+            "suit": "Wands",
+            "img": "w08.jpg",
+            "fortune_telling": [
                 "Watch for a surprising letter in the mail",
                 "Your whole world is about to be turned on its ear"
             ],
@@ -2313,18 +2541,22 @@
                     "Refusing to re-evaluate a schedule or program, even when it's clearly no longer appropriate"
                 ]
             },
-		"Numerology" : "8 (The Action: movement, outer work, swiftness)",
-      "Astrology" : "Mercury in Sagittarius",
-	  "Affirmation" : "\"I adapt quickly to change.\"",
-	  "QuestionsToAsk" : ["How quickly to you adapt to change?","What would your response be to overwhelming, sudden change?","What changes are on your horizon? How well have you prepared for them?"]
-    },
-    {
-      "name": "Nine of Wands",
-      "number": "9",
-      "arcana": "Minor Arcana",
-      "suit": "Wands",
-      "img": "w09.jpg",
-	  "fortune_telling": [
+            "Numerology": "8 (The Action: movement, outer work, swiftness)",
+            "Astrology": "Mercury in Sagittarius",
+            "Affirmation": "\"I adapt quickly to change.\"",
+            "QuestionsToAsk": [
+                "How quickly to you adapt to change?",
+                "What would your response be to overwhelming, sudden change?",
+                "What changes are on your horizon? How well have you prepared for them?"
+            ]
+        },
+        {
+            "name": "Nine of Wands",
+            "number": "9",
+            "arcana": "Minor Arcana",
+            "suit": "Wands",
+            "img": "w09.jpg",
+            "fortune_telling": [
                 "Don't relax yet; there's more to come",
                 "The test you're facing now is happening for one reason: to show you who your real friends are"
             ],
@@ -2355,18 +2587,22 @@
                     "Beating a dead horse"
                 ]
             },
-		"Numerology" : "9 (The Completion: fullness, readiness, ripeness)",
-      "Astrology" : "Moon in Sagittarius",
-	  "Affirmation" : "\"When the going gets tough, I stay the course.\"",
-	  "QuestionsToAsk" : ["How do you cope when things get really tough?","When you get low, what encourages you to go on?","At what point should you be able to let this situation go?"]
-    },
-    {
-      "name": "Ten of Wands",
-      "number": "10",
-      "arcana": "Minor Arcana",
-      "suit": "Wands",
-      "img": "w10.jpg",
-	  "fortune_telling": [
+            "Numerology": "9 (The Completion: fullness, readiness, ripeness)",
+            "Astrology": "Moon in Sagittarius",
+            "Affirmation": "\"When the going gets tough, I stay the course.\"",
+            "QuestionsToAsk": [
+                "How do you cope when things get really tough?",
+                "When you get low, what encourages you to go on?",
+                "At what point should you be able to let this situation go?"
+            ]
+        },
+        {
+            "name": "Ten of Wands",
+            "number": "10",
+            "arcana": "Minor Arcana",
+            "suit": "Wands",
+            "img": "w10.jpg",
+            "fortune_telling": [
                 "You're worn out",
                 "Back off, take a time out, and let someone else handle things for a while"
             ],
@@ -2392,18 +2628,22 @@
                     "Over-extending yourself on a regular basis"
                 ]
             },
-		"Numerology" : "10 (The End: finality, completion, exhaustion)",
-      "Astrology" : "Saturn in Sagittarius",
-	  "Affirmation" : "\"I respect my own limits.\"",
-	  "QuestionsToAsk" : ["How will you know when you reach the end of your rope?","How easily do you say no to new projects and requests?","What projects could you delegate...or eliminate?"]
-    },
-    {
-      "name": "Page of Wands",
-      "number": "11",
-      "arcana": "Minor Arcana",
-      "suit": "Wands",
-      "img": "w11.jpg",
-	  "fortune_telling": [
+            "Numerology": "10 (The End: finality, completion, exhaustion)",
+            "Astrology": "Saturn in Sagittarius",
+            "Affirmation": "\"I respect my own limits.\"",
+            "QuestionsToAsk": [
+                "How will you know when you reach the end of your rope?",
+                "How easily do you say no to new projects and requests?",
+                "What projects could you delegate...or eliminate?"
+            ]
+        },
+        {
+            "name": "Page of Wands",
+            "number": "11",
+            "arcana": "Minor Arcana",
+            "suit": "Wands",
+            "img": "w11.jpg",
+            "fortune_telling": [
                 "This card represents a young man or woman with a fiery, enthusiastic demeanor, likely born a Cancer, Leo, or Virgo, who wants to start a new relationship with you"
             ],
             "keywords": [
@@ -2429,17 +2669,21 @@
                     "Being so eager to \"do it yourself\" that you hinder your own progress"
                 ]
             },
-	"Elemental" : "Earth of Fire.",
-      "Affirmation" : "\"I can do this.\"",
-	  "QuestionsToAsk" : ["How easily do you admit your own inexperience?","How can you be a better student or employee?","What qualities would make a total beginner's voyage of discovery easier?"]
-    },
-    {
-      "name": "Knight of Wands",
-      "number": "12",
-      "arcana": "Minor Arcana",
-      "suit": "Wands",
-      "img": "w12.jpg",
-	  "fortune_telling": [
+            "Elemental": "Earth of Fire.",
+            "Affirmation": "\"I can do this.\"",
+            "QuestionsToAsk": [
+                "How easily do you admit your own inexperience?",
+                "How can you be a better student or employee?",
+                "What qualities would make a total beginner's voyage of discovery easier?"
+            ]
+        },
+        {
+            "name": "Knight of Wands",
+            "number": "12",
+            "arcana": "Minor Arcana",
+            "suit": "Wands",
+            "img": "w12.jpg",
+            "fortune_telling": [
                 "This card represents a man with a bold, passionate personality, likely born between July 12th and August 11th, who wants to sweep you off your feet"
             ],
             "keywords": [
@@ -2467,17 +2711,21 @@
                     "Beginning many projects without finishing any"
                 ]
             },
-		"Elemental" : "Air of Fire.",
-      "Affirmation" : "\"I can lead the way to success.\"",
-	  "QuestionsToAsk" : ["To what extent have you defined your ultimate goal?","What's the fastest way to get the job done? Is this necessarily the best way?","How long has it been since you looked back to see if others really are following your lead?"]
-    },
-    {
-      "name": "Queen of Wands",
-      "number": "13",
-      "arcana": "Minor Arcana",
-      "suit": "Wands",
-      "img": "w13.jpg",
-	  "fortune_telling": [
+            "Elemental": "Air of Fire.",
+            "Affirmation": "\"I can lead the way to success.\"",
+            "QuestionsToAsk": [
+                "To what extent have you defined your ultimate goal?",
+                "What's the fastest way to get the job done? Is this necessarily the best way?",
+                "How long has it been since you looked back to see if others really are following your lead?"
+            ]
+        },
+        {
+            "name": "Queen of Wands",
+            "number": "13",
+            "arcana": "Minor Arcana",
+            "suit": "Wands",
+            "img": "w13.jpg",
+            "fortune_telling": [
                 "This card represents a woman with an attractive, appealing personality, likely born between March 11th and April 20th, who wants to charm you into doing things her way"
             ],
             "keywords": [
@@ -2501,17 +2749,21 @@
                     "Disrupting group activities as a means of feeding your own ego"
                 ]
             },
-		"Elemental" : "Water of Fire.",
-      "Affirmation" : "\"I use my influence to promote unity.\"",
-	  "QuestionsToAsk" : ["How attentive am I?","How can I draw people's attention to what we have in common?","To what extent am I able to convince people to do what I want them to do?"]
-    },
-    {
-      "name": "King of Wands",
-      "number": "14",
-      "arcana": "Minor Arcana",
-      "suit": "Wands",
-      "img": "w14.jpg",
-	  "fortune_telling": [
+            "Elemental": "Water of Fire.",
+            "Affirmation": "\"I use my influence to promote unity.\"",
+            "QuestionsToAsk": [
+                "How attentive am I?",
+                "How can I draw people's attention to what we have in common?",
+                "To what extent am I able to convince people to do what I want them to do?"
+            ]
+        },
+        {
+            "name": "King of Wands",
+            "number": "14",
+            "arcana": "Minor Arcana",
+            "suit": "Wands",
+            "img": "w14.jpg",
+            "fortune_telling": [
                 "This card represents an older man with a commanding, charismatic personality, likely born between November 13th and December 12th, who prefers to give directions and have them followed"
             ],
             "keywords": [
@@ -2535,17 +2787,21 @@
                     "Lording it over others"
                 ]
             },
-		"Elemental" : "Fire of Fire",
-      "Affirmation" : "\"I use my authority and experience to get things done faster.\"",
-	  "QuestionsToAsk" : ["How confident a leader am I?","How can I project more confidence?","How can I offer my expertise in ways that inspire others to follow me?"]
-    },
-    {
-      "name": "Ace of Pentacles",
-      "number": "1",
-      "arcana": "Minor Arcana",
-      "suit": "Pentacles",
-      "img": "p01.jpg",
-	  "fortune_telling": [
+            "Elemental": "Fire of Fire",
+            "Affirmation": "\"I use my authority and experience to get things done faster.\"",
+            "QuestionsToAsk": [
+                "How confident a leader am I?",
+                "How can I project more confidence?",
+                "How can I offer my expertise in ways that inspire others to follow me?"
+            ]
+        },
+        {
+            "name": "Ace of Pentacles",
+            "number": "1",
+            "arcana": "Minor Arcana",
+            "suit": "Pentacles",
+            "img": "p01.jpg",
+            "fortune_telling": [
                 "Your health will improve",
                 "The check you're looking for really is in the mail"
             ],
@@ -2572,18 +2828,22 @@
                     "Taking what you want without concern for the needs of others"
                 ]
             },
-		"Numerology" : "1 (The Origin: the starting point, the seed, opportunity)",
-      "Astrology" : "Capricorn, Taurus, Virgo",
-      "Affirmation" : "\"I am open to and thankful for my blessings.\"",
-	  "QuestionsToAsk" : ["If I made my decision based solely on practical concerns, what would my decision be?","What resources are available to me?","What will be the physical and financial impact of my decisions?"]
-    },
-    {
-      "name": "Two of Pentacles",
-      "number": "2",
-      "arcana": "Minor Arcana",
-      "suit": "Pentacles",
-      "img": "p02.jpg",
-	  "fortune_telling": [
+            "Numerology": "1 (The Origin: the starting point, the seed, opportunity)",
+            "Astrology": "Capricorn, Taurus, Virgo",
+            "Affirmation": "\"I am open to and thankful for my blessings.\"",
+            "QuestionsToAsk": [
+                "If I made my decision based solely on practical concerns, what would my decision be?",
+                "What resources are available to me?",
+                "What will be the physical and financial impact of my decisions?"
+            ]
+        },
+        {
+            "name": "Two of Pentacles",
+            "number": "2",
+            "arcana": "Minor Arcana",
+            "suit": "Pentacles",
+            "img": "p02.jpg",
+            "fortune_telling": [
                 "It's time to balance the budget",
                 "Avoid the temptation to spend critical funds on frivolous goods"
             ],
@@ -2611,18 +2871,22 @@
                     "Engaging in behavior with no regard for how your body or bankbook will be impacted"
                 ]
             },
-		"Numerology" : "2 (The Other: duality, division, debate)",
-      "Astrology" : "Jupiter in Capricorn",
-      "Affirmation" : "\"Before taking action, I consider costs.\"",
-	  "QuestionsToAsk" : ["What values govern my decisions?","How willing am I to sacrifice a little pleasure now in order to have more pleasure later on?","Given my current situation, which course of action will give me more of what I really need?"]
-    },
-    {
-      "name": "Three of Pentacles",
-      "number": "3",
-      "arcana": "Minor Arcana",
-      "suit": "Pentacles",
-      "img": "p03.jpg",
-	  "fortune_telling": [
+            "Numerology": "2 (The Other: duality, division, debate)",
+            "Astrology": "Jupiter in Capricorn",
+            "Affirmation": "\"Before taking action, I consider costs.\"",
+            "QuestionsToAsk": [
+                "What values govern my decisions?",
+                "How willing am I to sacrifice a little pleasure now in order to have more pleasure later on?",
+                "Given my current situation, which course of action will give me more of what I really need?"
+            ]
+        },
+        {
+            "name": "Three of Pentacles",
+            "number": "3",
+            "arcana": "Minor Arcana",
+            "suit": "Pentacles",
+            "img": "p03.jpg",
+            "fortune_telling": [
                 "A high-dollar contract is in your future",
                 "If you work hard, you'll succeed"
             ],
@@ -2651,18 +2915,22 @@
                     "Failing to abide by a clearly-outlined agreement with yourself or others"
                 ]
             },
-		"Numerology" : "3 (The Result: expression, productivity, output)",
-      "Astrology" : "Mars in Capricorn",
-      "Affirmation" : "\"My work produces results.\"",
-	  "QuestionsToAsk" : ["How can I get more done?","What's expected of me? How large a role do I play in controlling those expectations?","What's been agreed to? How well has that agreement been followed?"]
-    },
-    {
-      "name": "Four of Pentacles",
-      "number": "4",
-      "arcana": "Minor Arcana",
-      "suit": "Pentacles",
-      "img": "p04.jpg",
-	  "fortune_telling": [
+            "Numerology": "3 (The Result: expression, productivity, output)",
+            "Astrology": "Mars in Capricorn",
+            "Affirmation": "\"My work produces results.\"",
+            "QuestionsToAsk": [
+                "How can I get more done?",
+                "What's expected of me? How large a role do I play in controlling those expectations?",
+                "What's been agreed to? How well has that agreement been followed?"
+            ]
+        },
+        {
+            "name": "Four of Pentacles",
+            "number": "4",
+            "arcana": "Minor Arcana",
+            "suit": "Pentacles",
+            "img": "p04.jpg",
+            "fortune_telling": [
                 "A rainy day is coming\u2014it's time to save"
             ],
             "keywords": [
@@ -2690,18 +2958,22 @@
                     "Failing to be a good manager of the blessings you've been given"
                 ]
             },
-		"Numerology" : "4 (The Status Quo: stability, equality, persistence)",
-      "Astrology" : "Sun in Capricorn",
-      "Affirmation" : "\"I use my resources wisely.\"",
-	  "QuestionsToAsk" : ["What factors determine how conservative or generous you are?","What kinds of things must be preserved at all costs?","When is greediness or stinginess a good trait to have? When might generosity work against you?"]
-    },
-    {
-      "name": "Five of Pentacles",
-      "number": "5",
-      "arcana": "Minor Arcana",
-      "suit": "Pentacles",
-      "img": "p05.jpg",
-	  "fortune_telling": [
+            "Numerology": "4 (The Status Quo: stability, equality, persistence)",
+            "Astrology": "Sun in Capricorn",
+            "Affirmation": "\"I use my resources wisely.\"",
+            "QuestionsToAsk": [
+                "What factors determine how conservative or generous you are?",
+                "What kinds of things must be preserved at all costs?",
+                "When is greediness or stinginess a good trait to have? When might generosity work against you?"
+            ]
+        },
+        {
+            "name": "Five of Pentacles",
+            "number": "5",
+            "arcana": "Minor Arcana",
+            "suit": "Pentacles",
+            "img": "p05.jpg",
+            "fortune_telling": [
                 "Finances are getting tighter",
                 "Prepare for a setback"
             ],
@@ -2730,18 +3002,22 @@
                     "Wallowing in misery"
                 ]
             },
-		"Numerology" : "5 (The Catalyst: instability, resistance, confrontation)",
-      "Astrology" : "Mercury in Taurus",
-      "Affirmation" : "\"I have faith that what I need will appear.\"",
-	  "QuestionsToAsk" : ["What critical resources do I lack?","What people or groups would come to my aid if I asked?","How might an impoverished spirit be impacting my physical or financial condition?"]
-    },
-    {
-      "name": "Six of Pentacles",
-      "number": "6",
-      "arcana": "Minor Arcana",
-      "suit": "Pentacles",
-      "img": "p06.jpg",
-	  "fortune_telling": [
+            "Numerology": "5 (The Catalyst: instability, resistance, confrontation)",
+            "Astrology": "Mercury in Taurus",
+            "Affirmation": "\"I have faith that what I need will appear.\"",
+            "QuestionsToAsk": [
+                "What critical resources do I lack?",
+                "What people or groups would come to my aid if I asked?",
+                "How might an impoverished spirit be impacting my physical or financial condition?"
+            ]
+        },
+        {
+            "name": "Six of Pentacles",
+            "number": "6",
+            "arcana": "Minor Arcana",
+            "suit": "Pentacles",
+            "img": "p06.jpg",
+            "fortune_telling": [
                 "When you need help, ask for it",
                 "Remember, though: what you receive may be limited by what you've given to others in the past"
             ],
@@ -2770,18 +3046,22 @@
                     "Ignoring obligations and commitments"
                 ]
             },
-		"Numerology" : "6 (The Adjustment: cooperation, collaboration, interaction)",
-      "Astrology" : "Moon in Taurus",
-      "Affirmation" : "\"Knowing I will receive more, I share my resources freely.\"",
-	  "QuestionsToAsk" : ["How do I feel about charity? About giving it? About receiving it?","How can I know if I'm treating others fairly?","What could I give that no one else can?"]
-    },
-    {
-      "name": "Seven of Pentacles",
-      "number": "7",
-      "arcana": "Minor Arcana",
-      "suit": "Pentacles",
-      "img": "p07.jpg",
-	  "fortune_telling": [
+            "Numerology": "6 (The Adjustment: cooperation, collaboration, interaction)",
+            "Astrology": "Moon in Taurus",
+            "Affirmation": "\"Knowing I will receive more, I share my resources freely.\"",
+            "QuestionsToAsk": [
+                "How do I feel about charity? About giving it? About receiving it?",
+                "How can I know if I'm treating others fairly?",
+                "What could I give that no one else can?"
+            ]
+        },
+        {
+            "name": "Seven of Pentacles",
+            "number": "7",
+            "arcana": "Minor Arcana",
+            "suit": "Pentacles",
+            "img": "p07.jpg",
+            "fortune_telling": [
                 "Things won't work out as expected",
                 "Pick up the pieces and prepare to move on"
             ],
@@ -2809,18 +3089,22 @@
                     "Refusing to take part in a project, then whining about the quality of the outcome"
                 ]
             },
-		"Numerology" : "7 (The Motive: imagination, inner work, psychology)",
-      "Astrology" : "Saturn in Taurus",
-      "Affirmation" : "\"To stay on target, I measure my progress.\"",
-	  "QuestionsToAsk" : ["To what extent have I fulfilled my own expectations?","What are the terms of success?","How can I be happier with the progress I've made?"]
-    },
-    {
-      "name": "Eight of Pentacles",
-      "number": "8",
-      "arcana": "Minor Arcana",
-      "suit": "Pentacles",
-      "img": "p08.jpg",
-	  "fortune_telling": [
+            "Numerology": "7 (The Motive: imagination, inner work, psychology)",
+            "Astrology": "Saturn in Taurus",
+            "Affirmation": "\"To stay on target, I measure my progress.\"",
+            "QuestionsToAsk": [
+                "To what extent have I fulfilled my own expectations?",
+                "What are the terms of success?",
+                "How can I be happier with the progress I've made?"
+            ]
+        },
+        {
+            "name": "Eight of Pentacles",
+            "number": "8",
+            "arcana": "Minor Arcana",
+            "suit": "Pentacles",
+            "img": "p08.jpg",
+            "fortune_telling": [
                 "Stop over-analyzing, researching, and outlining",
                 "Buckle down and get the work done"
             ],
@@ -2850,18 +3134,22 @@
                     "Rejecting opportunities to learn more about your craft"
                 ]
             },
-		"Numerology" : "8 (The Action: movement, outer work, swiftness)",
-      "Astrology" : "Sun in Virgo",
-      "Affirmation" : "\"I give myself wholeheartedly to the task of the moment.\"",
-	   "QuestionsToAsk" : ["How long has it been since you were \"lost in your work?\"","How can you improve your level of dedication and focus?","What work do you do best? What about that work appeals to you?"]
-    },
-    {
-      "name": "Nine of Pentacles",
-      "number": "9",
-      "arcana": "Minor Arcana",
-      "suit": "Pentacles",
-      "img": "p09.jpg",
-	  "fortune_telling": [
+            "Numerology": "8 (The Action: movement, outer work, swiftness)",
+            "Astrology": "Sun in Virgo",
+            "Affirmation": "\"I give myself wholeheartedly to the task of the moment.\"",
+            "QuestionsToAsk": [
+                "How long has it been since you were \"lost in your work?\"",
+                "How can you improve your level of dedication and focus?",
+                "What work do you do best? What about that work appeals to you?"
+            ]
+        },
+        {
+            "name": "Nine of Pentacles",
+            "number": "9",
+            "arcana": "Minor Arcana",
+            "suit": "Pentacles",
+            "img": "p09.jpg",
+            "fortune_telling": [
                 "Until you appreciate what you have, you won't have any luck getting more"
             ],
             "keywords": [
@@ -2887,18 +3175,22 @@
                     "Always craving more"
                 ]
             },
-		"Numerology" : "9 (The Completion: fullness, readiness, ripeness)",
-      "Astrology" : "Venus in Virgo",
-      "Affirmation" : "\"I know enough to be confident in my decisions.\"",
-	  "QuestionsToAsk" : ["If you could not have what you want, how would you make do?","Could you make a complex task easier by breaking it down into smaller steps?","How patient are you during the learning process? With yourself? With others?"]
-    },
-    {
-      "name": "Ten of Pentacles",
-      "number": "10",
-      "arcana": "Minor Arcana",
-      "suit": "Pentacles",
-      "img": "p10.jpg",
-	  "fortune_telling": [
+            "Numerology": "9 (The Completion: fullness, readiness, ripeness)",
+            "Astrology": "Venus in Virgo",
+            "Affirmation": "\"I know enough to be confident in my decisions.\"",
+            "QuestionsToAsk": [
+                "If you could not have what you want, how would you make do?",
+                "Could you make a complex task easier by breaking it down into smaller steps?",
+                "How patient are you during the learning process? With yourself? With others?"
+            ]
+        },
+        {
+            "name": "Ten of Pentacles",
+            "number": "10",
+            "arcana": "Minor Arcana",
+            "suit": "Pentacles",
+            "img": "p10.jpg",
+            "fortune_telling": [
                 "Big money is in the near future",
                 "Expect a powerful blessing to come your way"
             ],
@@ -2925,18 +3217,22 @@
                     "Always asking, \"What's in it for me?\""
                 ]
             },
-		"Numerology" : "10 (The End: finality, completion, exhaustion)",
-      "Astrology" : "Mercury in Virgo",
-      "Affirmation" : "\"I keep physical and financial matters in perspective.\"",
-	  "QuestionsToAsk" : ["How much stuff do I really need?","How do I feel about wealth and abundance? How do I define these terms?","How might shedding some possessions open room for growth?"]
-    },
-    {
-      "name": "Page of Pentacles",
-      "number": "11",
-      "arcana": "Minor Arcana",
-      "suit": "Pentacles",
-      "img": "p11.jpg",
-	  "fortune_telling": [
+            "Numerology": "10 (The End: finality, completion, exhaustion)",
+            "Astrology": "Mercury in Virgo",
+            "Affirmation": "\"I keep physical and financial matters in perspective.\"",
+            "QuestionsToAsk": [
+                "How much stuff do I really need?",
+                "How do I feel about wealth and abundance? How do I define these terms?",
+                "How might shedding some possessions open room for growth?"
+            ]
+        },
+        {
+            "name": "Page of Pentacles",
+            "number": "11",
+            "arcana": "Minor Arcana",
+            "suit": "Pentacles",
+            "img": "p11.jpg",
+            "fortune_telling": [
                 "This card represents a young man or woman with an earthy, practical demeanor, likely born an Aries, Taurus, or Gemini, who playfully encourages you to take financial or sexual risks"
             ],
             "keywords": [
@@ -2964,17 +3260,21 @@
                     "Using wealth or beauty as an excuse for not having to learn and grow"
                 ]
             },
-		"Elemental" : "Earth of Earth.",
-      "Affirmation" : "\"I am physically and financially responsible.\"",
-	  "QuestionsToAsk" : ["How can you get more financial or sexual experience without risking your livelihood or health?","How might hands-on learning play a role in your situation?","What's the most practical choice you could make?"]
-    },
-    {
-      "name": "Knight of Pentacles",
-      "number": "12",
-      "arcana": "Minor Arcana",
-      "suit": "Pentacles",
-      "img": "p12.jpg",
-	  "fortune_telling": [
+            "Elemental": "Earth of Earth.",
+            "Affirmation": "\"I am physically and financially responsible.\"",
+            "QuestionsToAsk": [
+                "How can you get more financial or sexual experience without risking your livelihood or health?",
+                "How might hands-on learning play a role in your situation?",
+                "What's the most practical choice you could make?"
+            ]
+        },
+        {
+            "name": "Knight of Pentacles",
+            "number": "12",
+            "arcana": "Minor Arcana",
+            "suit": "Pentacles",
+            "img": "p12.jpg",
+            "fortune_telling": [
                 "A stingy person may chide you for spending money",
                 "Be prepared to defend an economic or sexual decision"
             ],
@@ -3005,17 +3305,21 @@
                     "Copying another's work and claiming it as your own"
                 ]
             },
-		"Elemental" : "Air of Earth.",
-      "Affirmation" : "\"I temper my actions with cautious optimism.\"",
-	  "QuestionsToAsk" : ["What's the difference between caution and fear?","How can I evaluate the practicality of my own ideas and methods?","How realistic are my goals?"]
-    },
-    {
-      "name": "Queen of Pentacles",
-      "number": "13",
-      "arcana": "Minor Arcana",
-      "suit": "Pentacles",
-      "img": "p13.jpg",
-	  "fortune_telling": [
+            "Elemental": "Air of Earth.",
+            "Affirmation": "\"I temper my actions with cautious optimism.\"",
+            "QuestionsToAsk": [
+                "What's the difference between caution and fear?",
+                "How can I evaluate the practicality of my own ideas and methods?",
+                "How realistic are my goals?"
+            ]
+        },
+        {
+            "name": "Queen of Pentacles",
+            "number": "13",
+            "arcana": "Minor Arcana",
+            "suit": "Pentacles",
+            "img": "p13.jpg",
+            "fortune_telling": [
                 "This card represents a woman with an expansive, sensual nature, likely born between December 13th and 31st, who uses sensual appeal and the promise of reward to sway others to her point of view"
             ],
             "keywords": [
@@ -3042,17 +3346,21 @@
                     "Allowing a feeling of entitlement to distort your gratitude for what you're given"
                 ]
             },
-		"Elemental" : "Water of Earth.",
-      "Affirmation" : "\"I relish the best this world has to offer.\"",
-	  "QuestionsToAsk" : ["How do I define luxury?","To what extent am I capable of reveling in sensual pleasure?","What would I have to give up in order to \"have it all?\""]
-    },
-    {
-      "name": "King of Pentacles",
-      "number": "14",
-      "arcana": "Minor Arcana",
-      "suit": "Pentacles",
-      "img": "p14.jpg",
-	  "fortune_telling": [
+            "Elemental": "Water of Earth.",
+            "Affirmation": "\"I relish the best this world has to offer.\"",
+            "QuestionsToAsk": [
+                "How do I define luxury?",
+                "To what extent am I capable of reveling in sensual pleasure?",
+                "What would I have to give up in order to \"have it all?\""
+            ]
+        },
+        {
+            "name": "King of Pentacles",
+            "number": "14",
+            "arcana": "Minor Arcana",
+            "suit": "Pentacles",
+            "img": "p14.jpg",
+            "fortune_telling": [
                 "This card represents an older man with a financially, socially, and politically conservative spirit, likely born between August 12th and September 11th, who is known for putting his money where his mouth is"
             ],
             "keywords": [
@@ -3080,9 +3388,13 @@
                     "Bossing others around, especially when you're not empowered to do so"
                 ]
             },
-		"Elemental" : "Fire of Earth.",
-      "Affirmation" : "\"I embody confidence and fairness.\"",
-	  "QuestionsToAsk" : ["How can you handle expenses with greater confidence and maturity?","How dependable are you? How dependable would others say you are?","To what extent is a conservative viewpoint valuable? At what point does it become more of a burden than a blessing?"]
-    }
-  ]
+            "Elemental": "Fire of Earth.",
+            "Affirmation": "\"I embody confidence and fairness.\"",
+            "QuestionsToAsk": [
+                "How can you handle expenses with greater confidence and maturity?",
+                "How dependable are you? How dependable would others say you are?",
+                "To what extent is a conservative viewpoint valuable? At what point does it become more of a burden than a blessing?"
+            ]
+        }
+    ]
 }
