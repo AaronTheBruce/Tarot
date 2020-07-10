@@ -5,6 +5,7 @@ const TenCard = () => {
     const [tarotDeck, setTarotDeck] = useState(null);
     const [spread, setSpread] = useState(null);
     const [card, setCard] = useState(null);
+    const [hasShuffled, setHasShuffled] = useState(null);
 
     const getThisDeck = () => {
         setTarotDeck(getDeck());
@@ -18,10 +19,11 @@ const TenCard = () => {
         deck = spliceShuffle(deck);
         deck = stackSuffle(deck);
         setTarotDeck(deck);
+        if (hasShuffled) setHasShuffled(true);
     }
 
     const getThisSpread = (num) => {
-        shuffle();
+        if (!hasShuffled) shuffle();
         setSpread(getSpread(tarotDeck, num));
     }
 
@@ -43,9 +45,9 @@ const TenCard = () => {
         }
     }
 
-    const shiftCard = (e) => {
-        e.target.classList.toggle('problem')
-    }
+    // const shiftCard = (e) => {
+    //     e.target.classList.toggle('problem')
+    // }
 
     return (
         <>
@@ -67,6 +69,7 @@ const TenCard = () => {
                                 alt={spread[2].name}
                                 src={`images/cards/tarot-card-back.JPG`}
                                 onClick={() => {
+                                    (spread[2].inverted) ? document.getElementById(spread[2].name).classList.add('inverted') : document.getElementById(spread[2].name).classList.remove('inverted');
                                     document.getElementById(spread[2].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
                                         document.getElementById(spread[2].name).src = `images/cards/${spread[2].img}` :
                                         cardHandler(2);
@@ -82,6 +85,7 @@ const TenCard = () => {
                                 alt={spread[4].name}
                                 src={`images/cards/tarot-card-back.JPG`}
                                 onClick={() => {
+                                    (spread[4].inverted) ? document.getElementById(spread[4].name).classList.add('inverted') : document.getElementById(spread[4].name).classList.remove('inverted');
                                     document.getElementById(spread[4].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
                                         document.getElementById(spread[4].name).src = `images/cards/${spread[4].img}` :
                                         cardHandler(4);
@@ -97,9 +101,10 @@ const TenCard = () => {
                                 alt={spread[0].name}
                                 src={`images/cards/tarot-card-back.JPG`}
                                 onClick={(e) => {
+                                    (spread[0].inverted) ? document.getElementById(spread[0].name).classList.add('inverted') : document.getElementById(spread[0].name).classList.remove('inverted');
                                     document.getElementById(spread[0].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
-                                    document.getElementById(spread[0].name).src = `images/cards/${spread[0].img}` :
-                                    cardHandler(0);
+                                        document.getElementById(spread[0].name).src = `images/cards/${spread[0].img}` :
+                                        cardHandler(0);
                                 }}>
                             </img>
                             {/* <div>{spread[0].number} {spread[0].name}</div> */}
@@ -110,6 +115,7 @@ const TenCard = () => {
                                 alt={spread[1].name}
                                 src={`images/cards/tarot-card-back.JPG`}
                                 onClick={(e) => {
+                                    (spread[1].inverted) ? document.getElementById(spread[1].name).classList.add('inverted') : document.getElementById(spread[1].name).classList.remove('inverted');
                                     document.getElementById(spread[1].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
                                         document.getElementById(spread[1].name).src = `images/cards/${spread[1].img}` :
                                         cardHandler(1);
@@ -125,6 +131,7 @@ const TenCard = () => {
                                 alt={spread[5].name}
                                 src={`images/cards/tarot-card-back.JPG`}
                                 onClick={(e) => {
+                                    (spread[5].inverted) ? document.getElementById(spread[5].name).classList.add('inverted') : document.getElementById(spread[5].name).classList.remove('inverted');
                                     document.getElementById(spread[5].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
                                         document.getElementById(spread[5].name).src = `images/cards/${spread[5].img}` :
                                         cardHandler(5);
@@ -140,6 +147,7 @@ const TenCard = () => {
                                 alt={spread[3].name}
                                 src={`images/cards/tarot-card-back.JPG`}
                                 onClick={() => {
+                                    (spread[3].inverted) ? document.getElementById(spread[3].name).classList.add('inverted') : document.getElementById(spread[3].name).classList.remove('inverted');
                                     document.getElementById(spread[3].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
                                         document.getElementById(spread[3].name).src = `images/cards/${spread[3].img}` :
                                         cardHandler(3);
@@ -157,6 +165,7 @@ const TenCard = () => {
                                 alt={spread[9].name}
                                 src={`images/cards/tarot-card-back.JPG`}
                                 onClick={() => {
+                                    (spread[9].inverted) ? document.getElementById(spread[9].name).classList.add('inverted') : document.getElementById(spread[9].name).classList.remove('inverted');
                                     document.getElementById(spread[9].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
                                         document.getElementById(spread[9].name).src = `images/cards/${spread[9].img}` :
                                         cardHandler(9);
@@ -171,6 +180,7 @@ const TenCard = () => {
                                 alt={spread[8].name}
                                 src={`images/cards/tarot-card-back.JPG`}
                                 onClick={() => {
+                                    (spread[8].inverted) ? document.getElementById(spread[8].name).classList.add('inverted') : document.getElementById(spread[8].name).classList.remove('inverted');
                                     document.getElementById(spread[8].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
                                         document.getElementById(spread[8].name).src = `images/cards/${spread[8].img}` :
                                         cardHandler(8);
@@ -185,6 +195,7 @@ const TenCard = () => {
                                 alt={spread[7].name}
                                 src={`images/cards/tarot-card-back.JPG`}
                                 onClick={() => {
+                                    (spread[7].inverted) ? document.getElementById(spread[7].name).classList.add('inverted') : document.getElementById(spread[7].name).classList.remove('inverted');
                                     document.getElementById(spread[7].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
                                         document.getElementById(spread[7].name).src = `images/cards/${spread[7].img}` :
                                         cardHandler(7);
@@ -199,6 +210,7 @@ const TenCard = () => {
                                 alt={spread[6].name}
                                 src={`images/cards/tarot-card-back.JPG`}
                                 onClick={() => {
+                                    (spread[6].inverted) ? document.getElementById(spread[6].name).classList.add('inverted') : document.getElementById(spread[6].name).classList.remove('inverted');
                                     document.getElementById(spread[6].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
                                         document.getElementById(spread[6].name).src = `images/cards/${spread[6].img}` :
                                         cardHandler(6);
@@ -210,28 +222,32 @@ const TenCard = () => {
 
                     {card ?
                         <div className="card">
-                            <img className="focused-card-image"
-                                src={`images/cards/${card.img}`}
-                                alt={card.name} />
+                            {!card.inverted ?
+                                <img className="focused-card-image"
+                                    src={`images/cards/${card.img}`}
+                                    alt={card.name} />
+                                :
+                                <img className="focused-card-image inverted"
+                                    src={`images/cards/${card.img}`}
+                                    alt={card.name} />
+                            }
 
                             <div className="card-details">
                                 <div className="card-name">{card.number}: {card.name}</div>
                                 <div className="keywords">Keywords: {renderKeywords(card)}</div>
                                 <div className="meaning">
                                     <div className="label">
-                                        Light:
+                                        Meaning:
                                     </div>
-                                    <ul>
-                                        {card.meanings.light.map(item => <li key={item}>{item}</li>)}
-                                    </ul>
-                                </div>
-                                <div className="meaning">
-                                    <div className="label">
-                                        Shadow:
-                                    </div>
-                                    <ul>
-                                        {card.meanings.shadow.map(item => <li key={item}>{item}</li>)}
-                                    </ul>
+                                    {!card.inverted ?
+                                        <ul>
+                                            {card.meanings.light.map(item => <li key={item}>{item}</li>)}
+                                        </ul>
+                                        :
+                                        <ul>
+                                            {card.meanings.shadow.map(item => <li key={item}>{item}</li>)}
+                                        </ul>
+                                    }
                                 </div>
                                 <div className="meaning">
                                     <div className="label">

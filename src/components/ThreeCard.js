@@ -4,6 +4,7 @@ import { getDeck, getSpread, spliceShuffle, stackSuffle, riffleShuffle, renderKe
 const ThreeCard = () => {
     const [tarotDeck, setTarotDeck] = useState(null);
     const [spread, setSpread] = useState(null);
+    const [hasShuffled, setHasShuffled] = useState(null);
 
     const getThisDeck = () => {
         setTarotDeck(getDeck());
@@ -17,10 +18,11 @@ const ThreeCard = () => {
         deck = spliceShuffle(deck);
         deck = stackSuffle(deck);
         setTarotDeck(deck);
+        setHasShuffled(true);
     }
 
     const getThisSpread = (num) => {
-        // riffleShuffle(tarotDeck);
+        if (!hasShuffled) shuffle();
         setSpread(getSpread(tarotDeck, num));
     }
 
