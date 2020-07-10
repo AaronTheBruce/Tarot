@@ -3,7 +3,8 @@ html {
     background-image: url('./themes/dark-forest-background-image-1920x1200.jpg');
     background-repeat: no-repeat;
     background-position: top center;
-    background-color: black;
+    background-color: #0d0d19;
+
 }
 
 body {
@@ -418,6 +419,7 @@ body {
     .card {
         display: grid;
         justify-items: center;
+        align-items: center;
         padding: 10px 0px;
         grid-template-areas:
         'card-image card-details';
