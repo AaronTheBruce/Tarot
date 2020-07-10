@@ -53,8 +53,8 @@ const TenCard = () => {
                 <button className="button button1" type="submit" onClick={() => shuffle()}>Shuffle</button>
                 <button className="button button1" type="submit" onClick={() => { getThisSpread(10); }} >Get Spread</button>
                 <button className="button button1" type="submit" onClick={() => { setSpread(null); setTarotDeck(null); setCard(null); }}>Reset</button>
-                {/* <button type="submit" onClick={() => { console.log(spread); }} >Log Spread</button>
-                <button type="submit" onClick={() => { console.log(tarotDeck); }} >Log Deck</button> */}
+                <button type="submit" onClick={() => { console.log(spread); }} >Log Spread</button>
+                <button type="submit" onClick={() => { console.log(tarotDeck); }} >Log Deck</button>
             </div>
             {spread ?
                 <div className="ten_spread">
@@ -98,8 +98,8 @@ const TenCard = () => {
                                 src={`images/cards/tarot-card-back.JPG`}
                                 onClick={(e) => {
                                     document.getElementById(spread[0].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
-                                        document.getElementById(spread[0].name).src = `images/cards/${spread[0].img}` :
-                                        cardHandler(0);
+                                    document.getElementById(spread[0].name).src = `images/cards/${spread[0].img}` :
+                                    cardHandler(0);
                                 }}>
                             </img>
                             {/* <div>{spread[0].number} {spread[0].name}</div> */}
@@ -112,7 +112,7 @@ const TenCard = () => {
                                 onClick={(e) => {
                                     document.getElementById(spread[1].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
                                         document.getElementById(spread[1].name).src = `images/cards/${spread[1].img}` :
-                                        cardHandler(1); shiftCard(e);
+                                        cardHandler(1);
                                 }}>
                             </img>
                             {/* <div>{spread[1].number} {spread[1].name}</div> */}

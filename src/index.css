@@ -44,8 +44,12 @@ body {
       justify-content: space-around;
   }
 
-  .active {
-
+  .inverted {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
   }
 /* 1/3rd to 2/3rd Screen*/
 @media only screen and (min-width: 750px) and (max-width: 1300px){

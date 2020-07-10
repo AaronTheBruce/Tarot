@@ -10,22 +10,18 @@ const ThreeCard = () => {
     }
 
     const shuffle = () => {
-        setTarotDeck(riffleShuffle(tarotDeck));
-        setTarotDeck(spliceShuffle(tarotDeck));
-        setTarotDeck(stackSuffle(tarotDeck));
+        let deck = tarotDeck;
+        setTarotDeck(null);
+        setSpread(null);
+        deck = riffleShuffle(deck);
+        deck = spliceShuffle(deck);
+        deck = stackSuffle(deck);
+        setTarotDeck(deck);
     }
 
     const getThisSpread = (num) => {
-        riffleShuffle(tarotDeck);
+        // riffleShuffle(tarotDeck);
         setSpread(getSpread(tarotDeck, num));
-    }
-
-    const flipHandler = (num) => {
-        // onclick invocation,
-        // Check if the card img src is equal to the back image
-        // if so
-        // replace the src for an image from spread[num]
-        // else so return
     }
 
     useEffect(() => {
@@ -41,6 +37,8 @@ const ThreeCard = () => {
             <div className="options">
                 <button className="button button1" type="submit" onClick={() => shuffle()} >Shuffle</button>
                 <button className="button button1" type="submit" onClick={() => getThisSpread(3)} >Get Spread</button>
+                <button className="button button1" type="submit" onClick={() => console.log(spread)} >Log Spread</button>
+                <button className="button button1" type="submit" onClick={() => console.log(tarotDeck)} >Log Deck</button>
                 <button className="button button1" type="submit" onClick={() => { setSpread(null); setTarotDeck(null) }} >Reset</button>
             </div>
             {
@@ -51,11 +49,27 @@ const ThreeCard = () => {
                                 {i === 0 ? <div>Action to Avoid</div> :
                                     i === 1 ? <div>The Situation</div> :
                                         <div>Action to Take</div>}
-                                <img className="three_card_image"
+                                {/* {card.inverted ?
+                                    <img className={"three_card_image inverted"}
+                                        id={card.name}
+                                        src={`images/cards/tarot-card-back.JPG`}
+                                        alt={card.name}
+                                        onClick={() => { document.getElementById(card.name).src = `images/cards/${card.img}`; }}
+                                    />
+                                    :
+                                    <img className={"three_card_image"}
+                                        id={card.name}
+                                        src={`images/cards/tarot-card-back.JPG`}
+                                        alt={card.name}
+                                        onClick={() => { document.getElementById(card.name).src = `images/cards/${card.img}`; }}
+                                    />
+                                } */}
+                                <img className={"three_card_image inverted"}
                                     id={card.name}
                                     src={`images/cards/tarot-card-back.JPG`}
                                     alt={card.name}
-                                    onClick={()=> {document.getElementById(card.name).src=`images/cards/${card.img}`} }/>
+                                    onClick={() => { document.getElementById(card.name).src = `images/cards/${card.img}`; (card.inverted) ? document.getElementById(card.name).classList.add('inverted') : document.getElementById(card.name).classList.remove('inverted') }}
+                                />
                                 <div className="three_card_details">
                                     <div className="three_card_name">{card.number}: {card.name}</div>
                                     <div className="three_card_keywords">Keywords: <div>{renderKeywords(card)}</div></div>
