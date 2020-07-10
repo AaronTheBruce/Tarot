@@ -33,6 +33,16 @@ export const riffleShuffle = (deck) => {
     const cutDeckVariant = deck.length / 2 + Math.floor(Math.random() * 9) - 4;
     // specify the contents of left Half
     const leftHalf = deck.splice(0, cutDeckVariant);
+    // Keep the right half upright for the first iteration
+    deck.map(card => {
+        if(card.inverted === true) card.inverted = false;
+        if(card.inverted === false) card.inverted = true;
+    });
+    // flip leftHalf of the deck 'upside down'
+    leftHalf.map(card => {
+        if(card.inverted === false) card.inverted = true;
+        if(card.inverted === true) card.inverted = false;
+    })
     let leftCount = leftHalf.length;
     // specify the contents of the Right Half
     let rightCount = deck.length - Math.floor(Math.random() * 4);

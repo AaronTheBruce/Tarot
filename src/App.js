@@ -1,5 +1,4 @@
 import React from 'react';
-import SingleCard from './components/SingleCard';
 import { Nav } from './Navbar';
 
 function App() {
