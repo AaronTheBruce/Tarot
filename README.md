@@ -11,11 +11,11 @@ Tarot brings to mind a lot of things. Some view it as a psychological inquiry in
 This App provides 3 spreads.
 - Provides some basic information behind existing features in the App and offers Usage Advice
 
-### Single Card
+## Single Card
 - Can be used for a single card reading or for explorative purposes
 - Allows user to shuffle and draw individual cards and present basic meaning
 
-### Three Card Spread
+## Three Card Spread
 - Basic reading for basic questions
 - Lays 3 cards out in a line
 
