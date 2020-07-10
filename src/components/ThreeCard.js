@@ -20,6 +20,14 @@ const ThreeCard = () => {
         setSpread(getSpread(tarotDeck, num));
     }
 
+    const flipHandler = (num) => {
+        // onclick invocation,
+        // Check if the card img src is equal to the back image
+        // if so
+        // replace the src for an image from spread[num]
+        // else so return
+    }
+
     useEffect(() => {
         if (!tarotDeck) {
             getThisDeck();
@@ -43,7 +51,11 @@ const ThreeCard = () => {
                                 {i === 0 ? <div>Action to Avoid</div> :
                                     i === 1 ? <div>The Situation</div> :
                                         <div>Action to Take</div>}
-                                <img className="three_card_image" src={`images/cards/${card.img}`} alt={card.name} />
+                                <img className="three_card_image"
+                                    id={card.name}
+                                    src={`images/cards/tarot-card-back.JPG`}
+                                    alt={card.name}
+                                    onClick={()=> {document.getElementById(card.name).src=`images/cards/${card.img}`} }/>
                                 <div className="three_card_details">
                                     <div className="three_card_name">{card.number}: {card.name}</div>
                                     <div className="three_card_keywords">Keywords: <div>{renderKeywords(card)}</div></div>

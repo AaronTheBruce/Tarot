@@ -41,19 +41,10 @@ const TenCard = () => {
             setCard(null);
             setCard(spread[index]);
         }
-        else {
-            console.log("Card is", card);
-            console.log("spread[index]", spread[index]);
-            alert("You've hit an exceptional circumstance, what'd you just do? Check log for details");
-        }
     }
 
     const shiftCard = (e) => {
         e.target.classList.toggle('problem')
-    }
-
-    const hideTips = (e) => {
-        e.target.classList.toggle('hidden');
     }
 
     return (
@@ -61,7 +52,7 @@ const TenCard = () => {
             <div className="options">
                 <button className="button button1" type="submit" onClick={() => shuffle()}>Shuffle</button>
                 <button className="button button1" type="submit" onClick={() => { getThisSpread(10); }} >Get Spread</button>
-                <button className="button button1" type="submit" onClick={() => { setSpread(null); setTarotDeck(null); }}>Reset</button>
+                <button className="button button1" type="submit" onClick={() => { setSpread(null); setTarotDeck(null); setCard(null); }}>Reset</button>
                 {/* <button type="submit" onClick={() => { console.log(spread); }} >Log Spread</button>
                 <button type="submit" onClick={() => { console.log(tarotDeck); }} >Log Deck</button> */}
             </div>
@@ -72,9 +63,14 @@ const TenCard = () => {
                         <div className="conscious">
                             <div className="position_title">Conscious Thoughts</div>
                             <img className="ten_card_image"
+                                id={spread[2].name}
                                 alt={spread[2].name}
-                                src={`images/cards/${spread[2].img}`}
-                                onClick={() => { cardHandler(2) }}>
+                                src={`images/cards/tarot-card-back.JPG`}
+                                onClick={() => {
+                                    document.getElementById(spread[2].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
+                                        document.getElementById(spread[2].name).src = `images/cards/${spread[2].img}` :
+                                        cardHandler(2);
+                                }}>
                             </img>
                             {/* <div>{spread[3].number} {spread[3].name}</div> */}
                         </div>
@@ -82,9 +78,14 @@ const TenCard = () => {
                         <div className="past">
                             <div className="position_title">Recent Past</div>
                             <img className="ten_card_image"
+                                id={spread[4].name}
                                 alt={spread[4].name}
-                                src={`images/cards/${spread[4].img}`}
-                                onClick={() => { cardHandler(4) }}>
+                                src={`images/cards/tarot-card-back.JPG`}
+                                onClick={() => {
+                                    document.getElementById(spread[4].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
+                                        document.getElementById(spread[4].name).src = `images/cards/${spread[4].img}` :
+                                        cardHandler(4);
+                                }}>
                             </img>
                             {/* <div>{spread[4].number} {spread[4].name}</div> */}
                         </div>
@@ -92,17 +93,27 @@ const TenCard = () => {
                             <div className="position_title">Present By Problem</div>
                             {/* <div className="present"> */}
                             <img className="present ten_card_image"
+                                id={spread[0].name}
                                 alt={spread[0].name}
-                                src={`images/cards/${spread[0].img}`}
-                                onClick={(e) => { cardHandler(0); }}>
+                                src={`images/cards/tarot-card-back.JPG`}
+                                onClick={(e) => {
+                                    document.getElementById(spread[0].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
+                                        document.getElementById(spread[0].name).src = `images/cards/${spread[0].img}` :
+                                        cardHandler(0);
+                                }}>
                             </img>
                             {/* <div>{spread[0].number} {spread[0].name}</div> */}
                             {/* </div> */}
                             {/* <div className="problem"> */}
                             <img className="problem ten_card_image"
+                                id={spread[1].name}
                                 alt={spread[1].name}
-                                src={`images/cards/${spread[1].img}`}
-                                onClick={(e) => { cardHandler(1); shiftCard(e); }}>
+                                src={`images/cards/tarot-card-back.JPG`}
+                                onClick={(e) => {
+                                    document.getElementById(spread[1].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
+                                        document.getElementById(spread[1].name).src = `images/cards/${spread[1].img}` :
+                                        cardHandler(1); shiftCard(e);
+                                }}>
                             </img>
                             {/* <div>{spread[1].number} {spread[1].name}</div> */}
                             {/* </div> */}
@@ -110,9 +121,14 @@ const TenCard = () => {
                         <div className="future">
                             <div className="position_title">Near Future</div>
                             <img className="ten_card_image"
+                                id={spread[5].name}
                                 alt={spread[5].name}
-                                src={`images/cards/${spread[5].img}`}
-                                onClick={(e) => { cardHandler(5) }}>
+                                src={`images/cards/tarot-card-back.JPG`}
+                                onClick={(e) => {
+                                    document.getElementById(spread[5].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
+                                        document.getElementById(spread[5].name).src = `images/cards/${spread[5].img}` :
+                                        cardHandler(5);
+                                }}>
                             </img>
                             {/* <div>{spread[5].number} {spread[5].name}</div> */}
                         </div>
@@ -120,9 +136,14 @@ const TenCard = () => {
                         <div className="unconscious">
                             <div className="position_title">Unconscious Thoughts</div>
                             <img className="ten_card_image"
+                                id={spread[3].name}
                                 alt={spread[3].name}
-                                src={`images/cards/${spread[3].img}`}
-                                onClick={() => { cardHandler(3) }}>
+                                src={`images/cards/tarot-card-back.JPG`}
+                                onClick={() => {
+                                    document.getElementById(spread[3].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
+                                        document.getElementById(spread[3].name).src = `images/cards/${spread[3].img}` :
+                                        cardHandler(3);
+                                }}>
                             </img>
                             {/* <div>{spread[3].number} {spread[3].name}</div> */}
                         </div>
@@ -132,36 +153,56 @@ const TenCard = () => {
                         <div className="outcome">
                             <div className="position_title">Final Outcome</div>
                             <img className="ten_card_image"
+                                id={spread[9].name}
                                 alt={spread[9].name}
-                                src={`images/cards/${spread[9].img}`}
-                                onClick={() => { cardHandler(9) }}>
+                                src={`images/cards/tarot-card-back.JPG`}
+                                onClick={() => {
+                                    document.getElementById(spread[9].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
+                                        document.getElementById(spread[9].name).src = `images/cards/${spread[9].img}` :
+                                        cardHandler(9);
+                                }}>
                             </img>
                             {/* <div>{spread[9].number} {spread[9].name}</div> */}
                         </div>
                         <div className="hopes_and_fears">
                             <div className="position_title">Hopes and Fears</div>
                             <img className="ten_card_image"
+                                id={spread[8].name}
                                 alt={spread[8].name}
-                                src={`images/cards/${spread[8].img}`}
-                                onClick={() => { cardHandler(8) }}>
+                                src={`images/cards/tarot-card-back.JPG`}
+                                onClick={() => {
+                                    document.getElementById(spread[8].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
+                                        document.getElementById(spread[8].name).src = `images/cards/${spread[8].img}` :
+                                        cardHandler(8);
+                                }}>
                             </img>
                             {/* <div>{spread[8].number} {spread[8].name}</div> */}
                         </div>
                         <div className="ext_influence">
                             <div className="position_title">Your Environment</div>
                             <img className="ten_card_image"
+                                id={spread[7].name}
                                 alt={spread[7].name}
-                                src={`images/cards/${spread[7].img}`}
-                                onClick={() => { cardHandler(7) }}>
+                                src={`images/cards/tarot-card-back.JPG`}
+                                onClick={() => {
+                                    document.getElementById(spread[7].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
+                                        document.getElementById(spread[7].name).src = `images/cards/${spread[7].img}` :
+                                        cardHandler(7);
+                                }}>
                             </img>
                             {/* <div>{spread[7].number} {spread[7].name}</div> */}
                         </div>
                         <div className="your_influence">
                             <div className="position_title">Your Self</div>
                             <img className="ten_card_image"
+                                id={spread[6].name}
                                 alt={spread[6].name}
-                                src={`images/cards/${spread[6].img}`}
-                                onClick={() => { cardHandler(6) }}>
+                                src={`images/cards/tarot-card-back.JPG`}
+                                onClick={() => {
+                                    document.getElementById(spread[6].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
+                                        document.getElementById(spread[6].name).src = `images/cards/${spread[6].img}` :
+                                        cardHandler(6);
+                                }}>
                             </img>
                             {/* <div>{spread[6].number} {spread[6].name}</div> */}
                         </div>
@@ -169,7 +210,6 @@ const TenCard = () => {
 
                     {card ?
                         <div className="card">
-
                             <img className="focused-card-image"
                                 src={`images/cards/${card.img}`}
                                 alt={card.name} />
@@ -207,8 +247,7 @@ const TenCard = () => {
                         <div></div>}
                 </div>
                 :
-                <div className="prompt">Think on an issue you would like insight into while shuffling, when ready, Click Get Spread</div>
-            }
+                <div className="prompt">Think on an issue you would like insight into while shuffling, when ready, Click Get Spread</div>}
         </>
     )
 }
