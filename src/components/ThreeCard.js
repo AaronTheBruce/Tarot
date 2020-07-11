@@ -39,8 +39,8 @@ const ThreeCard = () => {
             <div className="options">
                 <button className="button button1" type="submit" onClick={() => shuffle()} >Shuffle</button>
                 <button className="button button1" type="submit" onClick={() => getThisSpread(3)} >Get Spread</button>
-                <button className="button button1" type="submit" onClick={() => console.log(spread)} >Log Spread</button>
-                <button className="button button1" type="submit" onClick={() => console.log(tarotDeck)} >Log Deck</button>
+                {/* <button className="button button1" type="submit" onClick={() => console.log(spread)} >Log Spread</button>
+                <button className="button button1" type="submit" onClick={() => console.log(tarotDeck)} >Log Deck</button> */}
                 <button className="button button1" type="submit" onClick={() => { setSpread(null); setTarotDeck(null) }} >Reset</button>
             </div>
             {
