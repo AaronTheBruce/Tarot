@@ -1,5 +1,7 @@
 # Tarot Card Spread App
 
+![TarotCardSpread](./public/images/TarotCardLayout.JPG)
+
 ### Deployment Link
 https://tarot-spread-app.herokuapp.com/
 
