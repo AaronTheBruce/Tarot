@@ -1,5 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import { getDeck, getCard, spliceShuffle, stackSuffle, riffleShuffle, renderKeywords } from '../utils/scripts.js';
+import { Button } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
+import theme from '../theme.js';
+
+// theme.palette.background
+const useStyles = makeStyles((theme) => ({
+    button: {
+        color: "black",
+    }
+}));
 
 const SingleCard = () => {
     const [tarotDeck, setTarotDeck] = useState(null);
@@ -33,13 +43,13 @@ const SingleCard = () => {
     return (
         <div>
             <div className="options">
-                <button className="button button1" onClick={() => { setCard(null); shuffle() }} >Shuffle</button>
+                <button color="primary" className="button button1" onClick={() => { setCard(null); shuffle() }} >Shuffle</button>
                 <button className="button button1" onClick={() => getThisCard()} >Draw Card</button>
                 <button className="button button1" onClick={() => { getThisDeck(); setCard(null) }} >Reset</button>
             </div>
             {card ?
                 <div className="single_card">
-                <img className="card-image" src={`images/cards/${card.img}`} alt={card.name} />
+                    <img className="card-image" src={`images/cards/${card.img}`} alt={card.name} />
                     <div className="card-details">
                         <div className="card-name">{card.number}: {card.name}</div>
                         <div className="keywords">Keywords: {renderKeywords(card)}</div>
