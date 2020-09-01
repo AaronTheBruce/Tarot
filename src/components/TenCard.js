@@ -45,10 +45,6 @@ const TenCard = () => {
         }
     }
 
-    // const shiftCard = (e) => {
-    //     e.target.classList.toggle('problem')
-    // }
-
     return (
         <>
             <div className="options">

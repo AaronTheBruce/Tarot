@@ -110,6 +110,7 @@ a {
   nav a {
     color: whitesmoke;
     padding: 0px 10px;
+    margin-left: 5%;
   }
 
   .three_spread {
@@ -199,6 +200,7 @@ a {
   .position_title {
     justify-self: center;
     grid-row: 1;
+    font-size: 14px;
   }
 
   .three_spread_card {
@@ -214,15 +216,12 @@ a {
   .three_card_image {
     width: 170px;
     height: 300px;
+    margin: 15px;
   }
 
   .three_card_fortune_telling ul {
     font-size: 12px;
     padding-left: 0;
-  }
-
-  .position_title {
-    font-size: 12px;
   }
 
   .card {
