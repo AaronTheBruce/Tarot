@@ -57,10 +57,10 @@ const ThreeCard = () => {
                     <div className="three_spread">
                         <div className="three_spread_card">
                             <div className="position_title">Action to Avoid</div>
-                            <img className={"three_card_image inverted"}
+                            <img className={"three_card_image"}
                                 id={spread[0].name}
-                                src={`images/cards/tarot-card-back.JPG`}
                                 alt={spread[0].name}
+                                src={`images/cards/tarot-card-back.JPG`}
                                 onClick={() => {
                                     (spread[1].inverted) ? document.getElementById(spread[0].name).classList.add('inverted') : document.getElementById(spread[0].name).classList.remove('inverted');
                                     document.getElementById(spread[0].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
@@ -69,10 +69,10 @@ const ThreeCard = () => {
                                 }}
                             />
                             <div className="position_title">The Situation</div>
-                            <img className={"three_card_image inverted"}
+                            <img className={"three_card_image"}
                                 id={spread[1].name}
-                                src={`images/cards/tarot-card-back.JPG`}
                                 alt={spread[1].name}
+                                src={`images/cards/tarot-card-back.JPG`}
                                 onClick={() => {
                                     (spread[1].inverted) ? document.getElementById(spread[1].name).classList.add('inverted') : document.getElementById(spread[1].name).classList.remove('inverted');
                                     document.getElementById(spread[1].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
@@ -81,10 +81,10 @@ const ThreeCard = () => {
                                 }}
                             />
                             <div className="position_title">Action to Take</div>
-                            <img className={"three_card_image inverted"}
+                            <img className={"three_card_image"}
                                 id={spread[2].name}
-                                src={`images/cards/tarot-card-back.JPG`}
                                 alt={spread[2].name}
+                                src={`images/cards/tarot-card-back.JPG`}
                                 onClick={() => {
                                     (spread[2].inverted) ? document.getElementById(spread[2].name).classList.add('inverted') : document.getElementById(spread[2].name).classList.remove('inverted');
                                     document.getElementById(spread[2].name).src.includes(`images/cards/tarot-card-back.JPG`) ?
