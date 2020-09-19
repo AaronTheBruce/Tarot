@@ -1,9 +1,11 @@
 # Tarot Card Spread App
 
 ### Demo Link
-https://tarot-spread-app.herokuapp.com/
+<a href="https://tarot-spread-app.herokuapp.com/">Demo Link</a>
 
-![TarotCardSpread](./public/images/TarotCardLayout.JPG)
+<a href="https://tarot-spread-app.herokuapp.com/">
+  ![TarotCardSpread](./public/images/TarotCardLayout.JPG)
+</a>
 
 ### Inspiration
 Tarot brings to mind a lot of things. Some view it as a psychological inquiry into an individual's perceptions. Others view it as a spiritual exercise of divination into one's fate. This Application in the developer's opinion would best be utilized in the vein of psychological inquiry. Keep in mind your intention you would like the cards to reflect. The user should ask themselves something Open-Ended. Being too specific about a question in the developer's opinion is outside of the scope of this application.
