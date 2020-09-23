@@ -4,7 +4,11 @@ import { Nav } from './Navbar';
 function App() {
   return (
     <>
-      <h1>Tarot Spread App</h1>
+      <h1><a href="/" style={{
+        "color":"whitesmoke",
+        "textDecoration":"none",
+        "fontSize":"38px",
+        }}>Tarot Spread App</a></h1>
       <Nav />
     </>
   );
