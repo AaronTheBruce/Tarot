@@ -259,7 +259,11 @@ const TenCard = () => {
                         <div></div>}
                 </div>
                 :
-                <div className="prompt">Think on an issue you would like insight into while shuffling, when ready, Click Get Spread</div>}
+                <>
+                    <div className="prompt">Think on an issue you would like insight into while shuffling, when ready, Click Get Spread</div>
+                    <div className="prompt">Click the face-down card to flip it face-up, click again for card details</div>
+                </>
+            }
         </>
     )
 }

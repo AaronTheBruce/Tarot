@@ -136,7 +136,10 @@ const ThreeCard = () => {
                             <div></div>}
                     </div>
                     :
-                    <div className="prompt">Hold a Question in your mind while you Shuffle and Draw a Spread when you feel ready</div>
+                    <>
+                        <div className="prompt">Hold a Question in your mind while you Shuffle and Draw a Spread when you feel ready</div>
+                        <div className="prompt">Click the face-down card to flip it face-up, click again for card details</div>
+                    </>
             }
         </div>
 
