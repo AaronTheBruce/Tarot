@@ -107,12 +107,6 @@ a {
     font-size: 18px;
   }
 
-  nav a {
-    color: whitesmoke;
-    padding: 0px 10px;
-    margin-left: 5%;
-  }
-
   .three_spread {
     display: grid;
     justify-content: center;
@@ -307,11 +301,6 @@ a {
 
   .active {
     font-weight: 700;
-  }
-
-  nav a {
-    color: whitesmoke;
-    display: flex;
   }
 
   .prompt {
@@ -545,11 +534,6 @@ a {
     font-weight: 700;
   }
 
-  nav a {
-    color: whitesmoke;
-    display: flex;
-  }
-
   .prompt {
     margin: 20px 0px;
   }
@@ -660,8 +644,4 @@ a {
   .situation {
     columns: 1;
   }
-
-  /* .none {
-        display: none;
-    } */
 }

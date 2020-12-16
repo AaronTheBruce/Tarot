@@ -9,7 +9,7 @@ const Tips = () => {
                     Cards are default in order for exploration, so don't forget to shuffle!
                 </li>
                 <li>
-                    Shuffle preforms 3 different shuffles with each click to the Suffle button
+                    Shuffle performs 3 different shuffles with each click to the shuffle button
                 </li>
                 <li>
                     Reset puts all the cards back in the deck in order
@@ -20,7 +20,7 @@ const Tips = () => {
             </ul>
             <h1>Spread Tips</h1>
             <ul>
-                <li>The Single Card spread is meant for deck exploration, but it can also aid in insight when applying card meaning to issues you are currently concern</li>
+                <li>The Single Card spread is meant for deck exploration, but it can also aid in insight when applying card meaning to issues you are currently concerned with</li>
                 <li>Both the Three and Ten card spreads layout cards face-down. Click the cards to flip them face up</li>
                 <li>When the cards turn face-up, you can click them again to bring up details for the selected card</li>
             </ul>
