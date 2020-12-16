@@ -2,13 +2,14 @@ import React, { useState, useEffect } from 'react'
 import { getDeck, getCard, spliceShuffle, stackSuffle, riffleShuffle, renderKeywords } from '../utils/scripts.js';
 import { Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import Social from './Social';
 import theme from '../theme.js';
 
 // theme.palette.background
 const useStyles = makeStyles((theme) => ({
     button: {
         color: "black",
-    }
+    },
 }));
 
 const SingleCard = () => {

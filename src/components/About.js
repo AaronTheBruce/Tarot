@@ -1,7 +1,7 @@
-import React from 'react'
-import { makeStyles } from '@material-ui/core/styles'
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
 import { Grid, Paper } from '@material-ui/core';
-import Social from './Social'
+import Social from './Social';
 
 const useStyles = makeStyles({
 
@@ -12,7 +12,7 @@ const useStyles = makeStyles({
   },
 
   imgBody: {
-    display: "inline-flex",
+    display: "inline-column",
     justifyContent: "center",
     backgroundColor: "rgba(205, 219, 222, 0.57)",
     margin: "40px 10px",
@@ -47,10 +47,11 @@ const About = () => {
       <Grid item lg={4}>
         <Paper className={classes.imgBody}>
           <img src="/images/aaron.jpg"></img>
+          <Social />
         </Paper>
       </Grid>
-      <Grid item xs={12}>
-        <Social />
+      <Grid item sm={12}>
+
       </Grid>
     </Grid>
   )
