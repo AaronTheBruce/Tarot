@@ -1,8 +1,9 @@
 # Tarot Card Spread App
 
-### Demo Link
-<a href="https://tarot-spread-app.herokuapp.com/">Demo Link</a>
+## Demo Link
+https://tarot-spread-app.herokuapp.com/
 
+### Screenshot
 ![TarotCardSpread](./public/images/TarotCardLayout.JPG)
 
 ### Inspiration
