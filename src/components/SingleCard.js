@@ -7,12 +7,18 @@ import theme from '../theme.js';
 
 // theme.palette.background
 const useStyles = makeStyles((theme) => ({
-    button: {
-        color: "black",
-    },
+    tenSpread : {
+        [theme.breakpoints.up("md")]:{
+            display: "grid",
+            justifyContent: "flex-start",
+            justifyItems: "center",
+            // gridTemplateAreas: 'cross spear' 'card card',
+        }
+    }
 }));
 
 const SingleCard = () => {
+    const classes = useStyles();
     const [tarotDeck, setTarotDeck] = useState(null);
     const [card, setCard] = useState(null);
     // const [errors, setErrors] = useState([]);
