@@ -11,7 +11,6 @@ Tarot brings to mind a lot of things. Some view it as a psychological inquiry in
 
 ### Tips
 This App provides 3 spreads.
-- Provides some basic information behind existing features in the App and offers Usage Advice
 
 ## Single Card
 - Can be used for a single card reading or for explorative purposes
